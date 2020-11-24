@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, MapaActivity.class);
+                Intent intent = new Intent(MainActivity.this, CrucigramaActivity.class);
                 startActivity(intent);
                 finish();
             }
-        }, 1000000);
+        }, 3000);
     }
 }
