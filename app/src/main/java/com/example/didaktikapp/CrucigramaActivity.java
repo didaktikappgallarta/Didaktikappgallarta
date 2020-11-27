@@ -1,6 +1,7 @@
 package com.example.didaktikapp;
 
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Layout;
@@ -99,7 +100,6 @@ public class CrucigramaActivity extends AppCompatActivity {
 
             toast1.show();
         }
-
     }
 
     public void siguienteDescripcion(View view) {
@@ -109,11 +109,14 @@ public class CrucigramaActivity extends AppCompatActivity {
                 descripcion.setText(descripciones.get(1));
                 Toast toast1 =
                         Toast.makeText(getApplicationContext(),
-                                i, Toast.LENGTH_SHORT);
+                                "siguiente", Toast.LENGTH_SHORT);
 
                 toast1.show();
             }
         }
+
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.karmelesarrera);
+        mp.start();
     }
 
     public void anteriorDescripcion(View view) {
