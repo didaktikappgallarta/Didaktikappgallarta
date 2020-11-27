@@ -106,7 +106,12 @@ public class CrucigramaActivity extends AppCompatActivity {
         TextView descripcion = findViewById(R.id.descripcion);
         for( int i = 0; i < descripciones.size();i++ ) {
             if (descripciones.get(i).equals(descripcion.getText().toString())) {
-                descripcion.setText(descripciones.get(i+1));
+                descripcion.setText(descripciones.get(1));
+                Toast toast1 =
+                        Toast.makeText(getApplicationContext(),
+                                i, Toast.LENGTH_SHORT);
+
+                toast1.show();
             }
         }
     }
