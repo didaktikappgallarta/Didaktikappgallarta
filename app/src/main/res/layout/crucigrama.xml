@@ -805,11 +805,11 @@
             android:textSize="36sp"></EditText>
 
         <EditText
-            android:id="@+id/o"
+            android:id="@+id/h"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="7"
+            android:layout_column="6"
             android:layout_margin="5dp"
             android:background="@drawable/edit_text_border"
             android:inputType="textCapCharacters"
@@ -817,11 +817,11 @@
             android:textSize="36sp"></EditText>
 
         <EditText
-            android:id="@+id/a"
+            android:id="@+id/o"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="9"
+            android:layout_column="7"
             android:layout_margin="5dp"
             android:background="@drawable/edit_text_border"
             android:inputType="textCapCharacters"
@@ -841,11 +841,11 @@
             android:textSize="36sp"></EditText>
 
         <EditText
-            android:id="@+id/h"
+            android:id="@+id/a"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="6"
+            android:layout_column="9"
             android:layout_margin="5dp"
             android:background="@drawable/edit_text_border"
             android:inputType="textCapCharacters"
@@ -870,7 +870,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="comprobarCrucigrama"
-        android:text="Comprobar"
+        android:text="@string/comprobar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.943"
@@ -883,7 +883,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="siguienteDescripcion"
-        android:text=" Siguiente"
+        android:text="@string/siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -898,7 +898,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:onClick="anteriorDescripcion"
-        android:text="Atras"
+        android:text="@string/atras"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layout"

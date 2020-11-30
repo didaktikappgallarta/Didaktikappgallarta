@@ -8,8 +8,8 @@
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="304dp"
-        android:layout_height="256dp"
+        android:layout_width="359dp"
+        android:layout_height="339dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -18,38 +18,51 @@
         app:layout_constraintVertical_bias="0.146"></VideoView>
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/buttonPause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="pausaVideo"
-        android:text="Pausa"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        android:text="@string/pausa"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlay"
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoView" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:onClick="playVideo"
-        android:text="Play"
-        app:layout_constraintEnd_toStartOf="@+id/button6"
+        android:text="@string/playVideo"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStop"
         app:layout_constraintHorizontal_bias="0.861"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoView" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/buttonStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:onClick="stopVideo"
-        android:text="Stop"
+        android:text="@string/stopVideo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:onClick="pasarActividadCrucigrama"
+        android:text="@string/pasarActividad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
