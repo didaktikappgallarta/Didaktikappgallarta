@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Didaktikapp</string>
+    <string name="comenzar">Hasi</string>
+    <string name="idioma">Hizkuntza</string>
+    <string name="continuar">Jarraitu</string>
+    <string name="ayuda">Laguntza</string>
+    <string name="salir">Utzi</string>
+    <string name="comprobar">Egiaztatu</string>
+    <string name="siguiente">Hurrengoa</string>
+    <string name="atras">Aurrekoa</string>
+    <string name="pausa">Eten</string>
+    <string name="playVideo">Jarraitu</string>
+    <string name="stopVideo">Gelditu</string>
+    <string name="pasarActividad">Jarduerara joan</string>
+    <string name="cambiarIdioma">Hizkuntza aldatu</string>
+    <string name="castellano">Gaztelania</string>
+    <string name="euskera">Euskara</string>
+    <string name="seleccionaIdioma">Hizkuntza hautatu</string>
+</resources>
