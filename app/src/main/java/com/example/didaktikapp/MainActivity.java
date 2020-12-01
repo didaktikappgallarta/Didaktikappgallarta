@@ -42,12 +42,14 @@ public class MainActivity extends AppCompatActivity {
         nombre1.setAnimation(animacion2);
         nombre2.setAnimation(animacion2);
 
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-        } else {
-            solicitarPermiso(Manifest.permission.ACCESS_FINE_LOCATION, "Sin el permiso de localización no se puede usar el GPS.", LOCATION_PERMISSION_REQUEST_CODE, this);
-            permisos = false;
-        }
-        iniciarActividad();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, MenuPrincipalActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        }, 3000);
     }
 
     public void iniciarActividad()
