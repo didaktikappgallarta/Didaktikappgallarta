@@ -3,9 +3,11 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_location">Map</string>
     <string name="title_activity_position">Map</string>
+
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
+
     <string name="comenzar">Comenzar</string>
     <string name="idioma">Idioma</string>
     <string name="continuar">Continuar</string>
@@ -22,4 +24,6 @@
     <string name="castellano">Castellano</string>
     <string name="euskera">Euskera</string>
     <string name="seleccionaIdioma">Selecciona el idioma</string>
+    <string name="error_could_not_load_image">0</string>
+    <string name="error_could_not_load_image_error">0</string>
 </resources>

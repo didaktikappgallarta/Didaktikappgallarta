@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.0xe1f:ararat:1.0.15@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/072931294958a7a413f9a76432b0dffc/jetified-ararat-1.0.15/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/072931294958a7a413f9a76432b0dffc/jetified-ararat-1.0.15/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/072931294958a7a413f9a76432b0dffc/jetified-ararat-1.0.15/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.0xe1f/ararat/1.0.15/428b3ea6bd35f495c66c4a5b80337eafee489fbc/ararat-1.0.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

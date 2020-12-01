@@ -1,0 +1,24 @@
+com/example/didaktikapp/CrucigramaActivity.java
+ com.example.didaktikapp.CrucigramaActivity
+ com.example.didaktikapp.CrucigramaActivity$1
+com/example/didaktikapp/BuildConfig.java
+ com.example.didaktikapp.BuildConfig
+com/example/didaktikapp/VideoCrucigramaActivity.java
+ com.example.didaktikapp.VideoCrucigramaActivity
+ com.example.didaktikapp.VideoCrucigramaActivity$1
+ com.example.didaktikapp.VideoCrucigramaActivity$2
+ com.example.didaktikapp.VideoCrucigramaActivity$3
+com/example/didaktikapp/MainActivity.java
+ com.example.didaktikapp.MainActivity
+ com.example.didaktikapp.MainActivity$1
+com/example/didaktikapp/MapsActivity.java
+ com.example.didaktikapp.MapsActivity
+ com.example.didaktikapp.MapsActivity$1
+com/example/didaktikapp/PuzzleActivity.java
+ com.example.didaktikapp.PuzzleActivity
+com/example/didaktikapp/MenuPrincipalActivity.java
+ com.example.didaktikapp.MenuPrincipalActivity
+ com.example.didaktikapp.MenuPrincipalActivity$1
+ com.example.didaktikapp.MenuPrincipalActivity$2
+ com.example.didaktikapp.MenuPrincipalActivity$3
+ com.example.didaktikapp.MenuPrincipalActivity$4
