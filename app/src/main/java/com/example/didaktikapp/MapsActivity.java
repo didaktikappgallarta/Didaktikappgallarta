@@ -45,7 +45,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
         map.setMaxZoomPreference(25.0f);
         map.getUiSettings().setCompassEnabled(false);
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-        MapStyleOptions mapStyleOptions = MapStyleOptions.loadRawResourceStyle(this, R.raw.mapa_dia);
+        MapStyleOptions mapStyleOptions = MapStyleOptions.loadRawResourceStyle(this, R.raw.mapa_noche);
         map.setMapStyle(mapStyleOptions);
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 //.target(new LatLng(43.318930, -3.071035))
@@ -102,7 +102,37 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override
             public boolean onMarkerClick(Marker m) {
-                Toast.makeText(getApplicationContext(), m.getTitle(), Toast.LENGTH_SHORT).show();
+                String marca = m.getId();
+                switch (marca)
+                {
+                    case "m0":
+                        //actividad1();
+                        break;
+
+                    case "m1":
+                        //actividad1();
+                        break;
+
+                    case "m2":
+                        //actividad1();
+                        break;
+
+                    case "m3":
+                        //actividad1();
+                        break;
+
+                    case "m4":
+                        //actividad1();
+                        break;
+
+                    case "m5":
+                        //actividad1();
+                        break;
+
+                    case "m6":
+                        //actividad1();
+                        break;
+                }
                 return false;
             }
         });
