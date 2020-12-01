@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Didaktikapp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_position">Map</string>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <string name="comenzar">Comenzar</string>
+    <string name="idioma">Idioma</string>
+    <string name="continuar">Continuar</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="comprobar">Comprobar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="atras">Anterior</string>
+    <string name="pausa">Pausa</string>
+    <string name="playVideo">Play</string>
+    <string name="stopVideo">Stop</string>
+    <string name="pasarActividad">Pasar a la actividad</string>
+    <string name="cambiarIdioma">Cambiar idioma</string>
+    <string name="castellano">Castellano</string>
+    <string name="euskera">Euskera</string>
+    <string name="seleccionaIdioma">Selecciona el idioma</string>
 </resources>
