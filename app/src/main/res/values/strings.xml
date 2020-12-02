@@ -24,6 +24,11 @@
     <string name="castellano">Castellano</string>
     <string name="euskera">Euskera</string>
     <string name="seleccionaIdioma">Selecciona el idioma</string>
-    <string name="error_could_not_load_image">0</string>
-    <string name="error_could_not_load_image_error">0</string>
+    <string name="success">Bien</string>
+    <string name="next">Siguiente</string>
+    <string name="restart">Reiniciar</string>
+    <string name="ok">ok</string>
+    <string name="exit">salir</string>
+    <string name="complete">Completado</string>
+    <string name="tips">Pistas</string>
 </resources>

@@ -1,24 +1,38 @@
-com/example/didaktikapp/CrucigramaActivity.java
- com.example.didaktikapp.CrucigramaActivity
- com.example.didaktikapp.CrucigramaActivity$1
+com/example/didaktikapp/PuzzleActivity.java
+ com.example.didaktikapp.PuzzleActivity
+ com.example.didaktikapp.PuzzleActivity$1
+ com.example.didaktikapp.PuzzleActivity$2
+ com.example.didaktikapp.PuzzleActivity$3
 com/example/didaktikapp/BuildConfig.java
  com.example.didaktikapp.BuildConfig
+com/example/didaktikapp/BitmapUtil.java
+ com.example.didaktikapp.BitmapUtil
+com/example/didaktikapp/model/Block.java
+ com.example.didaktikapp.model.Block
+com/example/didaktikapp/PuzzleLayout.java
+ com.example.didaktikapp.PuzzleLayout
+ com.example.didaktikapp.PuzzleLayout$1
+ com.example.didaktikapp.PuzzleLayout$2
+ com.example.didaktikapp.PuzzleLayout$OnCompleteCallback
 com/example/didaktikapp/VideoCrucigramaActivity.java
  com.example.didaktikapp.VideoCrucigramaActivity
  com.example.didaktikapp.VideoCrucigramaActivity$1
  com.example.didaktikapp.VideoCrucigramaActivity$2
  com.example.didaktikapp.VideoCrucigramaActivity$3
-com/example/didaktikapp/MainActivity.java
- com.example.didaktikapp.MainActivity
- com.example.didaktikapp.MainActivity$1
-com/example/didaktikapp/MapsActivity.java
- com.example.didaktikapp.MapsActivity
- com.example.didaktikapp.MapsActivity$1
-com/example/didaktikapp/PuzzleActivity.java
- com.example.didaktikapp.PuzzleActivity
 com/example/didaktikapp/MenuPrincipalActivity.java
  com.example.didaktikapp.MenuPrincipalActivity
  com.example.didaktikapp.MenuPrincipalActivity$1
  com.example.didaktikapp.MenuPrincipalActivity$2
  com.example.didaktikapp.MenuPrincipalActivity$3
  com.example.didaktikapp.MenuPrincipalActivity$4
+com/example/didaktikapp/MapsActivity.java
+ com.example.didaktikapp.MapsActivity
+ com.example.didaktikapp.MapsActivity$1
+com/example/didaktikapp/MainActivity.java
+ com.example.didaktikapp.MainActivity
+ com.example.didaktikapp.MainActivity$1
+com/example/didaktikapp/DataHelper.java
+ com.example.didaktikapp.DataHelper
+com/example/didaktikapp/CrucigramaActivity.java
+ com.example.didaktikapp.CrucigramaActivity
+ com.example.didaktikapp.CrucigramaActivity$1

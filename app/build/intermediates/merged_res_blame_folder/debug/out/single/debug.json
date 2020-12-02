@@ -104,6 +104,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-hdpi_zugaztieta_puzzlea.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-hdpi/zugaztieta_puzzlea.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_marca.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/marca.png"
     },
@@ -124,12 +128,12 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/help.png"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_crucigrama.xml.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/crucigrama.xml"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_puzzle_piece_move.wav.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/puzzle_piece_move.wav"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_crucigrama.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/crucigrama.xml"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_navigation.png.flat",
