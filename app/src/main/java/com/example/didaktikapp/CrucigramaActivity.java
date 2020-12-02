@@ -1,10 +1,8 @@
 package com.example.didaktikapp;
 
-import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.Editable;
-import android.text.Layout;
 import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.View;
@@ -24,7 +22,7 @@ public class CrucigramaActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.crucigrama);
+        setContentView(R.layout.activity_crucigrama);
 
         EditText h = findViewById(R.id.h);
         EditText o = findViewById(R.id.o);

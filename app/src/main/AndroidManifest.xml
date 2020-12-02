@@ -40,6 +40,9 @@
         <activity android:name=".MenuPrincipalActivity">
 
         </activity>
+        <activity android:name=".MemoramaActivity">
+
+        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
