@@ -101,7 +101,7 @@ public class AhorcadoActivity extends AppCompatActivity {
             if (numCorr == numChars) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
                 builder.setTitle("Ganaste");
-                builder.setMessage("Felicidades! \n\n La respuesta era \n\n " + currWord );
+                builder.setMessage("Felicidades! \n\n La respuesta era: " + currWord );
                 builder.setPositiveButton("Jugar de nuevo", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
