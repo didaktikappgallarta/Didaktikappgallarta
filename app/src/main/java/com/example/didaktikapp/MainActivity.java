@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, MenuPrincipalActivity.class);
+                Intent intent = new Intent(MainActivity.this, WordSearchApp.class);
                 startActivity(intent);
                 finish();
             }

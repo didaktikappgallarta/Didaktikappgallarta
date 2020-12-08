@@ -15,7 +15,11 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
     PuzzleLayout puzzleLayout;
     TextView tvTips;
     ImageView ivTips;
+
+    //el numero de parejas de piezas(si es dos seran 4 piezas)
     int squareRootNum = 2;
+
+    //la imagen del puzzle
     int drawableId = R.mipmap.zugaztieta_puzzlea;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,7 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
             @Override
             public void onComplete() {
                 Toast.makeText(PuzzleActivity.this, R.string.next, Toast.LENGTH_LONG).show();
-                puzzleLayout.postDelayed(PuzzleActivity.this, 800);
+                //puzzleLayout.postDelayed(PuzzleActivity.this, 800);
             }
         });
     }

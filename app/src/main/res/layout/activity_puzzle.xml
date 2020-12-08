@@ -23,7 +23,7 @@
         android:id="@+id/tv_tips"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center|end"
+        android:layout_gravity="top|end"
         android:background="#55DDDDDD"
         android:text="@string/tips" />
 </FrameLayout>

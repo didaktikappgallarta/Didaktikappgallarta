@@ -18,11 +18,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,18 +46,36 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_SELECTED" value="GestureDetectGridView" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_SELECTED" value="PuzzleLayout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_SELECTED" value="PuzzleLayout" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/GridBehavior.java_SELECTED" value="GridBehavior" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/GridLine.java_SELECTED" value="GridLine" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterBoard.java_SELECTED" value="LetterBoard" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterGrid.java_SELECTED" value="LetterGrid" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
+    <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/values" />
     <property name="memory.settings.postsync.last.time.stamp" value="1606904672307" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/GridBehavior.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/GridLine.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterBoard.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterGrid.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.213329836">
       <recent name="com.example.didaktikapp" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.didaktikapp.commons" />
+      <recent name="com.example.didaktikapp.di.component" />
     </key>
     <key name="android.template.-220974650">
       <recent name="com.example.didaktikapp" />
@@ -59,11 +84,11 @@
       <recent name="com.example.didaktikapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values-night" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\drawable" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\raw" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,45 +175,77 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="203" y="106" width="956" height="528" key="#PSD/0.0.1366.741@0.0.1366.741" timestamp="1606479774720" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606906705132">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="402" y="9" key="#app" timestamp="1606981954315">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="402" y="9" key="#app/0.0.1366.728@0.0.1366.728" timestamp="1606981954315" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606982411559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606982411559" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1607084839308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607084839308" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606982428682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1606982428682" />
+    <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1607088446572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088446572" />
+    <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607088043701">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="416" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088043701" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1606906705132" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1606911326586">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1607086881627">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="416" y="119" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607086881627" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.741@0.0.1366.741" timestamp="1606911326586" />
     <state x="518" y="164" width="325" height="412" key="AndroidCreateXmlResourceDialog" timestamp="1606820169622">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="518" y="164" width="325" height="412" key="AndroidCreateXmlResourceDialog/0.0.1366.741@0.0.1366.741" timestamp="1606820169622" />
-    <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl" timestamp="1606910839946">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="466" y="127" width="430" height="482" key="FileChooserDialogImpl" timestamp="1607082715992">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
     <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606910839946" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1606911939690">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1607068087065">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1606911939690" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1606911939689">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1607068087065">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1606911939689" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1606911939689">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1607068087065">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1606911939689" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1606911939690">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1607068087065">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1606911939690" />
-    <state x="187" y="6" key="SettingsEditor" timestamp="1606819570156">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="143" y="13" key="SettingsEditor" timestamp="1606982296605">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="143" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606982296605" />
     <state x="187" y="6" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1606819570156" />
     <state x="344" y="163" key="run.anything.popup" timestamp="1606827359922">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="344" y="163" key="run.anything.popup/0.0.1366.741@0.0.1366.741" timestamp="1606827359922" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607087510890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607087510890" />
   </component>
 </project>

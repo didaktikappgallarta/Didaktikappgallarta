@@ -39,9 +39,6 @@ class DataHelper {
         reset();
     }
 
-    /**
-     * 将索引出的model的值与空白model的值互换。
-     */
     boolean swapValueWithInvisibleModel(int index){
         Block formModel = models.get(index);
         Block invisibleModel = models.get(0);
@@ -50,7 +47,9 @@ class DataHelper {
     }
 
     /**
-     * 交换两个model的值
+     * metodo para cambiar el valor de la pieza cuando se mueve
+     * @param model
+     * @param invisibleModel
      */
     private void swapValue(Block model, Block invisibleModel) {
 
@@ -68,7 +67,7 @@ class DataHelper {
     }
 
     /**
-     * 判断是否拼图完成。
+     * metodo para cuando se termina el puzzle
      */
     private boolean isCompleted(){
         int num = squareRootNum * squareRootNum;
@@ -86,7 +85,9 @@ class DataHelper {
     }
 
     /**
-     * 通过给定的位置获取model的索引
+     * metodo para coger la posicion de la pieza
+     * @param currentPosition
+     * @return i
      */
     private int getIndexByCurrentPosition(int currentPosition){
         int num = squareRootNum * squareRootNum;
@@ -98,7 +99,7 @@ class DataHelper {
     }
 
     /**
-     * 随机查询出空白位置周围的一个model的索引。
+     * metodo para saber que piezas estan pegando a la pieza que se quiere mover
      */
     public int findNeighborIndexOfInvisibleModel() {
         Block invisibleModel = models.get(0);
@@ -125,27 +126,17 @@ class DataHelper {
     }
 
     /**
-     * 获取索引处model的可移动方向，不能移动返回 -1。
+     * metodo para coger la direccion en la que se quiere mover la pieza
+     * @param index
      */
     int getScrollDirection(int index){
 
         Block model = models.get(index);
         int position = model.position;
 
-        //获取当前view所在位置的坐标 x y
-        /*
-         *      * * * *
-         *      * o * *
-         *      * * * *
-         *      * * * *
-         */
         int x = position % squareRootNum;
         int y = position / squareRootNum;
         int invisibleModelPosition = models.get(0).position;
-
-        /*
-         * 判断当前位置是否可以移动，如果可以移动就return可移动的方向。
-         */
 
         if(x != 0 && invisibleModelPosition == position - 1)
             return L;

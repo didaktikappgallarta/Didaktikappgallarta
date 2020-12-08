@@ -1,4 +1,4 @@
-#Wed Dec 02 13:25:39 CET 2020
-base.0=/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Dec 04 08:54:13 CET 2020
+base.0=C\:\\Users\\F540U\\Desktop\\Didaktikappgallarta\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

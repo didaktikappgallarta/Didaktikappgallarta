@@ -1,9 +1,8 @@
 package com.example.didaktikapp.model;
 
 /**
- * 创建日期：2017/10/23.
- *
- * @author kevin
+ * clase para las piezas del puzzle
+ * @author didaktikapp
  */
 
 public class Block {

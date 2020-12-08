@@ -432,6 +432,11 @@ attr framePosition
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
 attr goIcon
+attr gridColumnCount
+attr gridHeight
+attr gridLineVisibility
+attr gridRowCount
+attr gridWidth
 attr haloColor
 attr haloRadius
 attr headerLayout
@@ -450,6 +455,7 @@ attr hintTextColor
 attr homeAsUpIndicator
 attr homeLayout
 attr horizontalOffset
+attr horizontalSpacing
 attr hoveredFocusedTranslationZ
 attr icon
 attr iconEndPadding
@@ -466,6 +472,7 @@ attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
 attr insetForeground
+attr interactive
 attr isLightTheme
 attr isMaterialTheme
 attr itemBackground
@@ -567,11 +574,15 @@ attr layout_keyline
 attr layout_optimizationLevel
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr letterColor
+attr letterSize
 attr liftOnScroll
 attr liftOnScrollTargetViewId
 attr limitBoundsTo
+attr lineColor
 attr lineHeight
 attr lineSpacing
+attr lineWidth
 attr listChoiceBackgroundIndicator
 attr listChoiceIndicatorMultipleAnimated
 attr listChoiceIndicatorSingleAnimated
@@ -711,6 +722,7 @@ attr region_heightLessThan
 attr region_heightMoreThan
 attr region_widthLessThan
 attr region_widthMoreThan
+attr rememberStreakLine
 attr reverseLayout
 attr rippleColor
 attr round
@@ -751,6 +763,7 @@ attr sliderStyle
 attr snackbarButtonStyle
 attr snackbarStyle
 attr snackbarTextViewStyle
+attr snapToGrid
 attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
@@ -773,6 +786,9 @@ attr state_lifted
 attr statusBarBackground
 attr statusBarForeground
 attr statusBarScrim
+attr streakColor
+attr streakWidth
+attr strekGrid
 attr strokeColor
 attr strokeWidth
 attr subMenuArrow
@@ -916,6 +932,7 @@ attr useMaterialThemeColors
 attr useViewLifecycle
 attr values
 attr verticalOffset
+attr verticalSpacing
 attr viewInflaterClass
 attr visibilityMode
 attr voiceIcon
@@ -1595,6 +1612,10 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg
+drawable bg_game_data_card
+drawable bg_item_simple
+drawable bg_splash
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1675,6 +1696,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable play
+drawable selector_btn
+drawable selector_clear_btn
 drawable splash_background
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1683,16 +1706,19 @@ drawable zugaztieta_puzzlea
 font abel
 font aclonica
 id ALT
+id ALWAYS_SNAP
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id NONE
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
+id START_END
 id SYM
 id TOP_END
 id TOP_START
@@ -1761,6 +1787,7 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id answered_text_count
 id asConfigured
 id async
 id auto
@@ -1807,6 +1834,7 @@ id confirm_button
 id container
 id content
 id contentPanel
+id content_layout
 id coordinator
 id cos
 id custom
@@ -1922,6 +1950,8 @@ id flip
 id floating
 id folder
 id forever
+id game_stat_text
+id game_template_spinner
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1946,9 +1976,11 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imgExit
 id imgIdioma
 id imgPlay
+id include
 id info
 id invisible
 id italic
@@ -1967,6 +1999,8 @@ id line3
 id linear
 id listMode
 id list_item
+id loading
+id loadingText
 id logo
 id map
 id masked
@@ -2004,6 +2038,7 @@ id mtrl_picker_title_text
 id multiply
 id navigation_header_container
 id never
+id new_game_btn
 id noScroll
 id nombre1
 id nombre2
@@ -2120,8 +2155,11 @@ id textStart
 id textView
 id textView2
 id textView3
+id text_duration
 id text_input_end_icon
 id text_input_start_icon
+id text_sel_layout
+id text_selection
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2161,6 +2199,7 @@ id visible
 id wide
 id withText
 id withinBounds
+id words_count
 id wrap
 id wrap_content
 id zero_corner_chip
@@ -2225,7 +2264,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_game_over
+layout activity_game_play
 layout activity_main
+layout activity_main_menu
 layout activity_maps
 layout activity_puzzle
 layout crucigrama
@@ -2281,6 +2323,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout partial_new_game_buttons
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2305,12 +2348,14 @@ mipmap ic_launcher_round
 mipmap zugaztieta_puzzlea
 plurals mtrl_badge_content_description
 raw conchabideoa
+raw correct
 raw karmeleletra
 raw karmelesarrera
 raw karmeleteoria
 raw mapa_dia
 raw mapa_noche
 raw puzzle_piece_move
+raw wrong
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2378,6 +2423,7 @@ string exit
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string felicidades
 string google_maps_key
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -3179,12 +3225,14 @@ styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec
 styleable ExtendedFloatingActionButton_Behavior_Layout behavior_autoHide behavior_autoShrink
 styleable FloatingActionButton android_enabled backgroundTint backgroundTintMode borderWidth elevation ensureMinTouchTargetSize fabCustomSize fabSize hideMotionSpec hoveredFocusedTranslationZ maxImageSize pressedTranslationZ rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec useCompatPadding
 styleable FloatingActionButton_Behavior_Layout behavior_autoHide
-styleable FlowLayout itemSpacing lineSpacing
+styleable FlowLayout horizontalSpacing itemSpacing lineSpacing verticalSpacing
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontWeight android_fontStyle android_ttcIndex android_fontVariationSettings font fontStyle fontVariationSettings fontWeight ttcIndex
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
+styleable GridBehavior gridHeight gridWidth
+styleable GridLine gridColumnCount gridRowCount lineColor lineWidth
 styleable ImageFilterView altSrc brightness contrast crossfade overlay round roundPercent saturation warmth
 styleable Insets paddingBottomSystemWindowInsets paddingLeftSystemWindowInsets paddingRightSystemWindowInsets
 styleable KeyAttribute android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate
@@ -3196,6 +3244,8 @@ styleable KeyPosition curveFit drawPath framePosition keyPositionType motionTarg
 styleable KeyTimeCycle android_alpha android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_translationZ android_elevation curveFit framePosition motionProgress motionTarget transitionEasing transitionPathRotate waveDecay waveOffset wavePeriod waveShape
 styleable KeyTrigger framePosition motionTarget motion_postLayoutCollision motion_triggerOnCollision onCross onNegativeCross onPositiveCross triggerId triggerReceiver triggerSlack
 styleable Layout android_orientation android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_layout_marginStart android_layout_marginEnd barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl constraint_referenced_ids constraint_referenced_tags layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop maxHeight maxWidth minHeight minWidth
+styleable LetterBoard gridColumnCount gridHeight gridLineVisibility gridRowCount gridWidth letterColor letterSize lineColor lineWidth snapToGrid streakWidth
+styleable LetterGrid letterColor letterSize
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
@@ -3246,6 +3296,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable StreakView interactive rememberStreakLine snapToGrid streakColor streakWidth strekGrid
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

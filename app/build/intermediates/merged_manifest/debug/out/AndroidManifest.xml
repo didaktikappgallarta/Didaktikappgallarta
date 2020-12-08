@@ -29,8 +29,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Didaktikapp" >
-        <activity android:name="com.example.didaktikapp.PuzzleActivity" />
-        <activity android:name="com.example.didaktikapp.SamplePuzzleActivity" />
+        <activity
+            android:name="com.example.didaktikapp.PuzzleActivity"
+            android:screenOrientation="landscape" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
