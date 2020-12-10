@@ -22,4 +22,6 @@
     <string name="castellano">Castellano</string>
     <string name="euskera">Euskera</string>
     <string name="seleccionaIdioma">Selecciona el idioma</string>
+    <string name="mensaje">Descifra el mensaje misterioso que se esconde aqui abajo</string>
+    <string name="rellenar">Rellena los huecos que hay para completar las frases</string>
 </resources>

@@ -17,4 +17,6 @@
     <string name="castellano">Gaztelania</string>
     <string name="euskera">Euskara</string>
     <string name="seleccionaIdioma">Hizkuntza hautatu</string>
+    <string name="mensaje">Hemen behean ezkutatuta dagoen mezua deszifratu</string>
+    <string name="rellenar">Bete hutsuneak esaldiak osatzeko</string>
 </resources>
