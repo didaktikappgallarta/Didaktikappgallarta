@@ -44,7 +44,7 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             Toast.makeText(this, "Para usar esta aplicación debes permitir el acceso al GPS", Toast.LENGTH_LONG).show();
 
         } else {
-            Intent intent = new Intent(MenuPrincipalActivity.this, PuzzleActivity.class);
+            Intent intent = new Intent(MenuPrincipalActivity.this, MapsActivity.class);
             startActivity(intent);
         }
         /*Intent intent = new Intent(MenuPrincipalActivity.this, VideoCrucigramaActivity.class);

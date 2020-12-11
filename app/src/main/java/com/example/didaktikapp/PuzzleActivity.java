@@ -34,7 +34,7 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
         puzzleLayout.setOnCompleteCallback(new PuzzleLayout.OnCompleteCallback() {
             @Override
             public void onComplete() {
-                Toast.makeText(PuzzleActivity.this, R.string.next, Toast.LENGTH_LONG).show();
+                Toast.makeText(PuzzleActivity.this, R.string.complete, Toast.LENGTH_LONG).show();
                 //puzzleLayout.postDelayed(PuzzleActivity.this, 800);
             }
         });

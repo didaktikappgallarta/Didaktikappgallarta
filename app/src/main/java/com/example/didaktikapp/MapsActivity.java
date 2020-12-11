@@ -3,6 +3,7 @@ package com.example.didaktikapp;
 import android.Manifest;
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
@@ -26,7 +27,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLocationButtonClickListener, GoogleMap.OnMyLocationClickListener, OnMapReadyCallback {
-
+    CameraPosition cameraPosition;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +47,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         MapStyleOptions mapStyleOptions = MapStyleOptions.loadRawResourceStyle(this, R.raw.mapa_noche);
         map.setMapStyle(mapStyleOptions);
-        CameraPosition cameraPosition = new CameraPosition.Builder()
+        cameraPosition= new CameraPosition.Builder()
                 //.target(new LatLng(43.318930, -3.071035))
                 .target(new LatLng(43.311472, -3.070639))
                 .zoom(25)
@@ -102,40 +103,45 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
             @Override
             public boolean onMarkerClick(Marker m) {
                 String marca = m.getId();
+
+                Intent intent = new Intent(MapsActivity.this, DialogoActivity.class);
+
+
                 switch (marca)
                 {
                     case "m0":
-                        //actividad1();
+                        intent.putExtra("marca", "Zugaztieta");
                         break;
 
                     case "m1":
-                        //actividad1();
+                        intent.putExtra("marca", "MinaConcha");
                         break;
 
                     case "m2":
-                        //actividad1();
+                        intent.putExtra("marca", "MuesoMineria");
                         break;
 
                     case "m3":
-                        //actividad1();
+                        intent.putExtra("marca", "Transporte");
                         break;
 
                     case "m4":
-                        //actividad1();
+                        intent.putExtra("marca", "DoctorAreilza");
                         break;
 
                     case "m5":
-                        //actividad1();
+                        intent.putExtra("marca", "Pasionaria");
                         break;
 
                     case "m6":
-                        //actividad1();
+                        intent.putExtra("marca", "AllIron");
                         break;
                 }
+                startActivity(intent);
                 return false;
             }
-        });
 
+        });
 
         map.setOnMyLocationButtonClickListener(this);
         map.setOnMyLocationClickListener(this);

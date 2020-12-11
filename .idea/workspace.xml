@@ -5,6 +5,10 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_23]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_XL_API_23]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -21,7 +25,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -30,6 +39,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -42,6 +52,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_XL_API_23" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-11T11:44:42.730Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_SELECTED" value="GestureDetectGridView" />
@@ -53,8 +65,8 @@
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterGrid.java_SELECTED" value="LetterGrid" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/values" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1606904672307" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DAM/PROM/ActividadDialogos" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1607672535765" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
@@ -70,25 +82,31 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.213329836">
+    <key name="android.template.528181761">
       <recent name="com.example.didaktikapp" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.didaktikapp.commons" />
       <recent name="com.example.didaktikapp.di.component" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values-night" />
+      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\drawable" />
+    </key>
     <key name="android.template.-220974650">
+      <recent name="com.example.didaktikapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets/Acividad1" />
+    </key>
+    <key name="android.template.213329836">
       <recent name="com.example.didaktikapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.didaktikapp" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values-night" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\drawable" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\raw" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -183,6 +201,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606982411559" />
+    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607676904504">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.741@0.0.1366.741" timestamp="1607676904504" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1607084839308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -195,16 +217,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088446572" />
-    <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607088043701">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607674499736">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="416" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088043701" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1606906705132" />
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1607674499736" />
     <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1607086881627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="119" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607086881627" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.741@0.0.1366.741" timestamp="1606911326586" />
+    <state x="97" y="99" width="1172" height="545" key="AVDManager" timestamp="1607687167673">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="97" y="99" width="1172" height="545" key="AVDManager/0.0.1366.741@0.0.1366.741" timestamp="1607687167673" />
+    <state x="266" y="129" width="830" height="482" key="AndroidCreateResourceFileDialog" timestamp="1607673633252">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="266" y="129" width="830" height="482" key="AndroidCreateResourceFileDialog/0.0.1366.741@0.0.1366.741" timestamp="1607673633252" />
     <state x="518" y="164" width="325" height="412" key="AndroidCreateXmlResourceDialog" timestamp="1606820169622">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -214,26 +244,26 @@
     </state>
     <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
     <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606910839946" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1607068087065">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1607692762296">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1606911939690" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1607068087065">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1607692762296" />
+    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1607692762296">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1606911939689" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1607068087065">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1607692762296" />
+    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1607692762295">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1606911939689" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1607068087065">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1607692762295" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1607692762296">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1606911939690" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1607692762296" />
     <state x="143" y="13" key="SettingsEditor" timestamp="1606982296605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,5 +277,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607087510890" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MapsActivity.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

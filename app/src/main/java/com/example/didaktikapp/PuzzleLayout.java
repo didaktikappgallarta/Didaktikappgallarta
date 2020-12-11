@@ -17,11 +17,6 @@ import androidx.customview.widget.ViewDragHelper;
 
 import com.example.didaktikapp.model.Block;
 
-/**
- * 创建日期：2017/10/23.
- *
- * @author kevin
- */
 
 public class PuzzleLayout extends RelativeLayout {
     private ViewDragHelper viewDragHelper;
@@ -183,8 +178,7 @@ public class PuzzleLayout extends RelativeLayout {
     }
 
     /**
-     *  将子View index与mHelper中models的index一一对应，
-     *  每次在交换子View位置的时候model同步更新currentPosition。
+     *  Metodo para coger la posicion actual
      */
     private void createChildren(){
         removeAllViews();

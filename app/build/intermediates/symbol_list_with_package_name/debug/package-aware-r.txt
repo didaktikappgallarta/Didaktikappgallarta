@@ -97,9 +97,6 @@ attr altSrc
 attr ambientEnabled
 attr animate_relativeTo
 attr animationMode
-attr answerTextColor
-attr answerTextPadding
-attr answerTextSize
 attr appBarLayoutStyle
 attr applyMotionScene
 attr arcMode
@@ -189,10 +186,7 @@ attr cardMaxElevation
 attr cardPreventCornerOverlap
 attr cardUseCompatPadding
 attr cardViewStyle
-attr cellSize
-attr cellStrokeColor
 attr chainUseRtl
-attr cheatedCellFillColor
 attr checkboxStyle
 attr checkedButton
 attr checkedChip
@@ -223,7 +217,6 @@ attr chipStyle
 attr chipSurfaceColor
 attr circleCrop
 attr circleRadius
-attr circleStrokeColor
 attr clickAction
 attr closeIcon
 attr closeIconEnabled
@@ -317,7 +310,6 @@ attr dayInvalidStyle
 attr daySelectedStyle
 attr dayStyle
 attr dayTodayStyle
-attr defaultCellFillColor
 attr defaultDuration
 attr defaultQueryHint
 attr defaultState
@@ -352,7 +344,6 @@ attr duration
 attr editTextBackground
 attr editTextColor
 attr editTextStyle
-attr editable
 attr elevation
 attr elevationOverlayColor
 attr elevationOverlayEnabled
@@ -602,7 +593,6 @@ attr liteMode
 attr logo
 attr logoDescription
 attr mapType
-attr markedCellFillColor
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -637,7 +627,6 @@ attr menu
 attr minHeight
 attr minTouchTargetSize
 attr minWidth
-attr mistakeCellFillColor
 attr mock_diagonalsColor
 attr mock_label
 attr mock_labelBackgroundColor
@@ -660,9 +649,6 @@ attr navigationMode
 attr navigationViewStyle
 attr nestedScrollFlags
 attr number
-attr numberTextColor
-attr numberTextPadding
-attr numberTextSize
 attr numericModifiers
 attr onCross
 attr onHide
@@ -736,11 +722,8 @@ attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
 attr seekBarStyle
-attr selectFirstUnoccupiedOnNav
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
-attr selectedCellFillColor
-attr selectedWordFillColor
 attr selectionRequired
 attr shapeAppearance
 attr shapeAppearanceLargeComponent
@@ -758,7 +741,6 @@ attr singleChoiceItemLayout
 attr singleLine
 attr singleSelection
 attr sizePercent
-attr skipOccupiedOnType
 attr sliderStyle
 attr snackbarButtonStyle
 attr snackbarStyle
@@ -1613,8 +1595,6 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg
-drawable bg_game_data_card
-drawable bg_item_simple
 drawable bg_splash
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1663,6 +1643,13 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable icjardin
 drawable idioma
+drawable karmele_animazioa1
+drawable karmele_animazioa2
+drawable karmele_animazioa3
+drawable karmele_animazioa4
+drawable karmele_animazioa5
+drawable karmele_animazioa6
+drawable karmele_animazioa7
 drawable logo
 drawable marca
 drawable material_ic_calendar_black_24dp
@@ -1696,8 +1683,6 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable play
-drawable selector_btn
-drawable selector_clear_btn
 drawable splash_background
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1787,7 +1772,6 @@ id all
 id always
 id animateToEnd
 id animateToStart
-id answered_text_count
 id asConfigured
 id async
 id auto
@@ -1834,7 +1818,6 @@ id confirm_button
 id container
 id content
 id contentPanel
-id content_layout
 id coordinator
 id cos
 id custom
@@ -1856,6 +1839,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dialogo
 id dimensions
 id direct
 id disableHome
@@ -1950,8 +1934,6 @@ id flip
 id floating
 id folder
 id forever
-id game_stat_text
-id game_template_spinner
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1976,11 +1958,10 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView2
+id imageView3
 id imgExit
 id imgIdioma
 id imgPlay
-id include
 id info
 id invisible
 id italic
@@ -1999,8 +1980,6 @@ id line3
 id linear
 id listMode
 id list_item
-id loading
-id loadingText
 id logo
 id map
 id masked
@@ -2038,7 +2017,6 @@ id mtrl_picker_title_text
 id multiply
 id navigation_header_container
 id never
-id new_game_btn
 id noScroll
 id nombre1
 id nombre2
@@ -2155,11 +2133,8 @@ id textStart
 id textView
 id textView2
 id textView3
-id text_duration
 id text_input_end_icon
 id text_input_start_icon
-id text_sel_layout
-id text_selection
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2199,7 +2174,6 @@ id visible
 id wide
 id withText
 id withinBounds
-id words_count
 id wrap
 id wrap_content
 id zero_corner_chip
@@ -2264,12 +2238,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_game_over
-layout activity_game_play
+layout activity_dialogo
 layout activity_main
-layout activity_main_menu
 layout activity_maps
 layout activity_puzzle
+layout activity_video
 layout crucigrama
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2323,7 +2296,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout partial_new_game_buttons
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3218,7 +3190,6 @@ styleable ConstraintLayout_placeholder content placeholder_emptyVisibility
 styleable ConstraintSet android_orientation android_id android_visibility android_layout_width android_layout_height android_layout_marginLeft android_layout_marginTop android_layout_marginRight android_layout_marginBottom android_maxWidth android_maxHeight android_minWidth android_minHeight android_pivotX android_pivotY android_alpha android_transformPivotX android_transformPivotY android_translationX android_translationY android_scaleX android_scaleY android_rotation android_rotationX android_rotationY android_layout_marginStart android_layout_marginEnd android_translationZ android_elevation animate_relativeTo barrierAllowsGoneWidgets barrierDirection barrierMargin chainUseRtl constraint_referenced_ids constraint_referenced_tags deriveConstraintsFrom drawPath flow_firstHorizontalBias flow_firstHorizontalStyle flow_firstVerticalBias flow_firstVerticalStyle flow_horizontalAlign flow_horizontalBias flow_horizontalGap flow_horizontalStyle flow_lastHorizontalBias flow_lastHorizontalStyle flow_lastVerticalBias flow_lastVerticalStyle flow_maxElementsWrap flow_verticalAlign flow_verticalBias flow_verticalGap flow_verticalStyle flow_wrapMode layout_constrainedHeight layout_constrainedWidth layout_constraintBaseline_creator layout_constraintBaseline_toBaselineOf layout_constraintBottom_creator layout_constraintBottom_toBottomOf layout_constraintBottom_toTopOf layout_constraintCircle layout_constraintCircleAngle layout_constraintCircleRadius layout_constraintDimensionRatio layout_constraintEnd_toEndOf layout_constraintEnd_toStartOf layout_constraintGuide_begin layout_constraintGuide_end layout_constraintGuide_percent layout_constraintHeight_default layout_constraintHeight_max layout_constraintHeight_min layout_constraintHeight_percent layout_constraintHorizontal_bias layout_constraintHorizontal_chainStyle layout_constraintHorizontal_weight layout_constraintLeft_creator layout_constraintLeft_toLeftOf layout_constraintLeft_toRightOf layout_constraintRight_creator layout_constraintRight_toLeftOf layout_constraintRight_toRightOf layout_constraintStart_toEndOf layout_constraintStart_toStartOf layout_constraintTag layout_constraintTop_creator layout_constraintTop_toBottomOf layout_constraintTop_toTopOf layout_constraintVertical_bias layout_constraintVertical_chainStyle layout_constraintVertical_weight layout_constraintWidth_default layout_constraintWidth_max layout_constraintWidth_min layout_constraintWidth_percent layout_editor_absoluteX layout_editor_absoluteY layout_goneMarginBottom layout_goneMarginEnd layout_goneMarginLeft layout_goneMarginRight layout_goneMarginStart layout_goneMarginTop motionProgress motionStagger pathMotionArc pivotAnchor transitionEasing transitionPathRotate
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
-styleable CrosswordView answerTextColor answerTextPadding answerTextSize cellSize cellStrokeColor cheatedCellFillColor circleStrokeColor defaultCellFillColor editable markedCellFillColor mistakeCellFillColor numberTextColor numberTextPadding numberTextSize selectFirstUnoccupiedOnNav selectedCellFillColor selectedWordFillColor skipOccupiedOnType
 styleable CustomAttribute attributeName customBoolean customColorDrawableValue customColorValue customDimension customFloatValue customIntegerValue customPixelDimension customStringValue
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable ExtendedFloatingActionButton elevation extendMotionSpec hideMotionSpec showMotionSpec shrinkMotionSpec

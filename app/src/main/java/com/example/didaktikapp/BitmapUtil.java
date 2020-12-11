@@ -3,12 +3,6 @@ package com.example.didaktikapp;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 
-/**
- * 创建日期：2017/10/23.
- *
- * @author kevin
- */
-
 public class BitmapUtil {
     public static Bitmap zoomImg(Bitmap bm, int newWidth ,int newHeight){
         int width = bm.getWidth();
