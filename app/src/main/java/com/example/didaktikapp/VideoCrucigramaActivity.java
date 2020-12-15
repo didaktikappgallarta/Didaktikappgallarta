@@ -41,5 +41,4 @@ public class VideoCrucigramaActivity extends AppCompatActivity {
         Intent intent = new Intent(VideoCrucigramaActivity.this, CrucigramaActivity.class);
         startActivity(intent);
     }
-
 }
