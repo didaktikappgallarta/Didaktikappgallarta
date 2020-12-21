@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,138 +7,19 @@
 
     <GridLayout
         android:id="@+id/layout"
-        android:layout_width="405dp"
-        android:layout_height="464dp"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:background="#FAF7F7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/aAdios118"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="8"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios116"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="9"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
             android:id="@+id/aAdios117"
             android:layout_width="30dp"
             android:layout_height="wrap_content"
             android:layout_row="0"
-            android:layout_column="0"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios110"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="2"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios111"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="3"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios112"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="4"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios113"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="5"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios114"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="6"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios115"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="7"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios109"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
-            android:layout_column="1"
-            android:layout_margin="5dp"
-            android:background="@drawable/edit_text_border"
-            android:inputType="textCapCharacters"
-            android:maxLength="1"
-            android:textSize="24sp"></EditText>
-
-        <EditText
-            android:id="@+id/aAdios108"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_row="10"
             android:layout_column="0"
             android:layout_margin="5dp"
             android:background="@drawable/edit_text_border"

@@ -34,16 +34,11 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".CrucigramaActivity" />
+
         <activity android:name=".VideoCrucigramaActivity" />
+
         <activity android:name=".MenuPrincipalActivity" />
 
-        </activity>
-        <activity android:name=".VideoCrucigramaActivity">
-
-        </activity>
-        <activity android:name=".MenuPrincipalActivity">
-
-        </activity>
         <activity android:name=".MemoramaActivity">
 
         </activity>
