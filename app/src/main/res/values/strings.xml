@@ -3,9 +3,11 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_location">Map</string>
     <string name="title_activity_position">Map</string>
+
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
+
     <string name="comenzar">Comenzar</string>
     <string name="idioma">Idioma</string>
     <string name="continuar">Continuar</string>
@@ -22,4 +24,14 @@
     <string name="castellano">Castellano</string>
     <string name="euskera">Euskera</string>
     <string name="seleccionaIdioma">Selecciona el idioma</string>
+    <string name="success">Bien</string>
+    <string name="next">Siguiente</string>
+    <string name="restart">Reiniciar</string>
+    <string name="ok">ok</string>
+    <string name="exit">salir</string>
+    <string name="complete">Completado</string>
+    <string name="tips">Pista</string>
+    <string name="felicidades">Felicidades</string>
+    <string name="mensaje">Descifra el mensaje misterioso que se esconde aqui abajo</string>
+    <string name="rellenar">Rellena los huecos que hay para completar las frases</string>
 </resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:background="#957DAD"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/cuerda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/cuerda" />
+
+        <ImageView
+            android:id="@+id/cabeza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="108dp"
+            android:paddingTop="23dp"
+            android:src="@drawable/head"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/cuerpo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="120dp"
+            android:paddingTop="52dp"
+            android:src="@drawable/body"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/brazoIzquierdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="100dp"
+            android:paddingTop="60dp"
+            android:src="@drawable/arm_left"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/brazoDerecho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="120dp"
+            android:paddingTop="60dp"
+            android:src="@drawable/arm_right"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/piernaIzquierda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="101dp"
+            android:paddingTop="90dp"
+            android:src="@drawable/leg_left"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/piernaDerecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="121dp"
+            android:paddingTop="90dp"
+            android:src="@drawable/leg_right"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/palabras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:orientation="horizontal"/>
+
+    <GridView
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        android:numColumns="7"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp" />
+
+</LinearLayout>

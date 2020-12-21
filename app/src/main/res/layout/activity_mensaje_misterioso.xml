@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_width="149dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+        <EditText
+            android:id="@+id/f1r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f5r2"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f1r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f1r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f1r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f1r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f1r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f2r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="5"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f3r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f3r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="4"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="5"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="6"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f4r8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="7"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f5r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="4"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="5"
+            android:inputType="textCapCharacters"
+            android:maxLength="1">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/f6r7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="6"
+            android:inputType="textCapCharacters"
+            android:maxLength="1"></EditText>
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/mezu_misteriotsua2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="230dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/mezu_misteriotsua" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="84dp"
+        android:onClick="comprobarMensaje"
+        android:text="@string/comprobar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/mensaje"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

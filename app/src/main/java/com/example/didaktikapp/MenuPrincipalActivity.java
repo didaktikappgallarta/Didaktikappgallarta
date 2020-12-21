@@ -47,6 +47,10 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             Intent intent = new Intent(MenuPrincipalActivity.this, MapsActivity.class);
             startActivity(intent);
         }
+
+        /*Intent intent = new Intent(MenuPrincipalActivity.this, MemoramaActivity.class);
+        startActivity(intent);*/
+
         /*Intent intent = new Intent(MenuPrincipalActivity.this, VideoCrucigramaActivity.class);
         startActivity(intent);*/
     }
