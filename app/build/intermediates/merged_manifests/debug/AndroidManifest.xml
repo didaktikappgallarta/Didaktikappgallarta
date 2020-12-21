@@ -30,7 +30,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.Didaktikapp" >
         <activity android:name="com.example.didaktikapp.DialogoActivity" />
-        <activity android:name="com.example.didaktikapp.ActivityVideo" />
         <activity
             android:name="com.example.didaktikapp.PuzzleActivity"
             android:screenOrientation="landscape" />

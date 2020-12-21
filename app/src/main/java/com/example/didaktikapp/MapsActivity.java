@@ -42,7 +42,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
     @Override
     public void onMapReady(GoogleMap map) {
         //map.setMinZoomPreference(25.0f);
-        map.setMaxZoomPreference(25.0f);
+       // map.setMaxZoomPreference(25.0f);
         map.getUiSettings().setCompassEnabled(false);
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         MapStyleOptions mapStyleOptions = MapStyleOptions.loadRawResourceStyle(this, R.raw.mapa_noche);

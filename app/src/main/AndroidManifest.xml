@@ -13,7 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Didaktikapp">
         <activity android:name=".DialogoActivity"></activity>
-        <activity android:name=".ActivityVideo" />
         <activity
             android:name=".PuzzleActivity"
             android:screenOrientation="landscape" />

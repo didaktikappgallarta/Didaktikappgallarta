@@ -2242,7 +2242,6 @@ layout activity_dialogo
 layout activity_main
 layout activity_maps
 layout activity_puzzle
-layout activity_video
 layout crucigrama
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2321,9 +2320,15 @@ mipmap zugaztieta_puzzlea
 plurals mtrl_badge_content_description
 raw conchabideoa
 raw correct
-raw karmeleletra
-raw karmelesarrera
-raw karmeleteoria
+raw karmele_letra1
+raw karmele_sarrera1
+raw karmele_sarrera2
+raw karmele_sarrera3
+raw karmele_sarrera4
+raw karmele_sarrera5
+raw karmele_sarrera6
+raw karmele_sarrera7
+raw karmele_teoria1
 raw mapa_dia
 raw mapa_noche
 raw puzzle_piece_move
