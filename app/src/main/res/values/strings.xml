@@ -32,4 +32,6 @@
     <string name="complete">Completado</string>
     <string name="tips">Pista</string>
     <string name="felicidades">Felicidades</string>
+    <string name="mensaje">Descifra el mensaje misterioso que se esconde aqui abajo</string>
+    <string name="rellenar">Rellena los huecos que hay para completar las frases</string>
 </resources>

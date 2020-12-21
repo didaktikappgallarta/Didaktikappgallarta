@@ -1,10 +1,8 @@
 package com.example.didaktikapp;
 
-import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.text.Editable;
-import android.text.Layout;
 import android.text.TextWatcher;
 import android.view.Gravity;
 import android.view.View;
@@ -24,11 +22,9 @@ public class CrucigramaActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.crucigrama);
+        setContentView(R.layout.activity_crucigrama);
 
         EditText h = findViewById(R.id.h);
-        EditText o = findViewById(R.id.o);
-        EditText l = findViewById(R.id.l);
         EditText a = findViewById(R.id.a);
 
         descripciones.add("1. Saludo comunmente utilizado por las personas");
@@ -38,8 +34,6 @@ public class CrucigramaActivity extends AppCompatActivity {
         descripcion.setText(descripciones.get(0));
 
         h.setBackgroundColor(getResources().getColor(R.color.naranja));
-        o.setBackgroundColor(getResources().getColor(R.color.naranja));
-        l.setBackgroundColor(getResources().getColor(R.color.naranja));
         a.setBackgroundColor(getResources().getColor(R.color.naranja));
 
         //descripcion.setGravity(Gravity.CENTER_VERTICAL);
@@ -83,11 +77,9 @@ public class CrucigramaActivity extends AppCompatActivity {
 
     public void comprobarCrucigrama(View view) {
         EditText h = findViewById(R.id.h);
-        EditText o = findViewById(R.id.o);
-        EditText l = findViewById(R.id.l);
         EditText a = findViewById(R.id.a);
 
-        if ((h.getText().toString() + o.getText().toString() + l.getText().toString() + a.getText().toString()).equals("HOLA")) {
+        if ((h.getText().toString() + a.getText().toString()).equals("HOLA")) {
             Toast toast1 =
                     Toast.makeText(getApplicationContext(),
                             "has acertado", Toast.LENGTH_SHORT);
@@ -110,7 +102,6 @@ public class CrucigramaActivity extends AppCompatActivity {
                 Toast toast1 =
                         Toast.makeText(getApplicationContext(),
                                 "siguiente", Toast.LENGTH_SHORT);
-
                 toast1.show();
             }
         }
