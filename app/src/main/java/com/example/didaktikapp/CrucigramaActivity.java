@@ -106,7 +106,7 @@ public class CrucigramaActivity extends AppCompatActivity {
             }
         }
 
-        MediaPlayer mp = MediaPlayer.create(this, R.raw.karmelesarrera);
+        MediaPlayer mp = MediaPlayer.create(this, R.raw.karmele_sarrera1);
         mp.start();
     }
 
