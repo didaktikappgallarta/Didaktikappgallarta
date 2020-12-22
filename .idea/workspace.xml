@@ -16,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_23]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6P_API_23]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -38,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,8 +65,9 @@
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/LetterGrid.java_SELECTED" value="LetterGrid" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/androidTest/assets" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1607672535765" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1608632065309" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
@@ -90,11 +91,11 @@
       <recent name="com.example.didaktikapp.di.component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values" />
-      <recent name="C:\Users\F540U\Desktop\Didaktikappgallarta\app\src\main\res\values-night" />
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
     </key>
     <key name="android.template.-220974650">
       <recent name="com.example.didaktikapp" />
@@ -220,20 +221,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088446572" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608034154573">
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608639750747">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="416" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088043701" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1608034154573" />
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1608639750747" />
     <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1607086881627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="119" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607086881627" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.741@0.0.1366.741" timestamp="1606911326586" />
-    <state x="97" y="99" width="1172" height="545" key="AVDManager" timestamp="1608538378544">
+    <state x="97" y="99" width="1172" height="545" key="AVDManager" timestamp="1608633257011">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="97" y="99" width="1172" height="545" key="AVDManager/0.0.1366.741@0.0.1366.741" timestamp="1608538378544" />
+    <state x="97" y="99" width="1172" height="545" key="AVDManager/0.0.1366.741@0.0.1366.741" timestamp="1608633257011" />
     <state x="266" y="129" width="830" height="482" key="AndroidCreateResourceFileDialog" timestamp="1607673633252">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -242,31 +243,31 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="518" y="164" width="325" height="412" key="AndroidCreateXmlResourceDialog/0.0.1366.741@0.0.1366.741" timestamp="1606820169622" />
-    <state x="466" y="127" width="430" height="482" key="FileChooserDialogImpl" timestamp="1607082715992">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl" timestamp="1608634325363">
+      <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
-    <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606910839946" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1608538445171">
+    <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1608634325363" />
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1608640623864">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1608538445171" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1608538445170">
+    <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1608640623864" />
+    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1608640623863">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1608538445170">
+    <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1608640623863" />
+    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1608640623863">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1608538445170">
+    <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1608640623863" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1608640623864">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
+    <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1608640623864" />
     <state width="1322" height="225" key="GridCell.Tab.1.bottom" timestamp="1608038873113">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -288,6 +289,10 @@
     </state>
     <state x="143" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606982296605" />
     <state x="187" y="6" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1608033187478" />
+    <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog" timestamp="1608633980179">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog/0.0.1366.741@0.0.1366.741" timestamp="1608633980179" />
     <state x="344" y="163" key="run.anything.popup" timestamp="1606827359922">
       <screen x="0" y="0" width="1366" height="741" />
     </state>

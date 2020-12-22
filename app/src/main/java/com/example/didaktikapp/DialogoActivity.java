@@ -20,8 +20,6 @@ public class DialogoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dialogo);
         dialogo= findViewById(R.id.dialogo);
 
-        getSupportActionBar().hide();
-
         Bundle extras = getIntent().getExtras();
         marca = extras.getString("marca");
 

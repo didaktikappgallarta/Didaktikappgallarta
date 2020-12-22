@@ -3,6 +3,8 @@ com/example/didaktikapp/PuzzleActivity.java
  com.example.didaktikapp.PuzzleActivity$1
  com.example.didaktikapp.PuzzleActivity$2
  com.example.didaktikapp.PuzzleActivity$3
+com/example/didaktikapp/LetterAdapter.java
+ com.example.didaktikapp.LetterAdapter
 com/example/didaktikapp/model/Word.java
  com.example.didaktikapp.model.Word
 com/example/didaktikapp/BuildConfig.java
@@ -13,9 +15,47 @@ com/example/didaktikapp/DialogoActivity.java
  com.example.didaktikapp.DialogoActivity
 com/example/didaktikapp/VideoCrucigramaActivity.java
  com.example.didaktikapp.VideoCrucigramaActivity
- com.example.didaktikapp.VideoCrucigramaActivity$1
- com.example.didaktikapp.VideoCrucigramaActivity$2
- com.example.didaktikapp.VideoCrucigramaActivity$3
+com/example/didaktikapp/BitmapUtil.java
+ com.example.didaktikapp.BitmapUtil
+com/example/didaktikapp/PuzzleLayout.java
+ com.example.didaktikapp.PuzzleLayout
+ com.example.didaktikapp.PuzzleLayout$1
+ com.example.didaktikapp.PuzzleLayout$2
+ com.example.didaktikapp.PuzzleLayout$OnCompleteCallback
+com/example/didaktikapp/DataHelper.java
+ com.example.didaktikapp.DataHelper
+com/example/didaktikapp/CrucigramaActivity.java
+ com.example.didaktikapp.CrucigramaActivity
+com/example/didaktikapp/model/Grid.java
+ com.example.didaktikapp.model.Grid
+com/example/didaktikapp/MemoramaActivity.java
+ com.example.didaktikapp.MemoramaActivity
+ com.example.didaktikapp.MemoramaActivity$1
+ com.example.didaktikapp.MemoramaActivity$10
+ com.example.didaktikapp.MemoramaActivity$11
+ com.example.didaktikapp.MemoramaActivity$2
+ com.example.didaktikapp.MemoramaActivity$3
+ com.example.didaktikapp.MemoramaActivity$4
+ com.example.didaktikapp.MemoramaActivity$5
+ com.example.didaktikapp.MemoramaActivity$6
+ com.example.didaktikapp.MemoramaActivity$7
+ com.example.didaktikapp.MemoramaActivity$8
+ com.example.didaktikapp.MemoramaActivity$9
+com/example/didaktikapp/model/UsedWord.java
+ com.example.didaktikapp.model.UsedWord
+ com.example.didaktikapp.model.UsedWord$AnswerLine
+com/example/didaktikapp/MensajeMisteriosoActivity.java
+ com.example.didaktikapp.MensajeMisteriosoActivity
+ com.example.didaktikapp.MensajeMisteriosoActivity$1
+ com.example.didaktikapp.MensajeMisteriosoActivity$2
+ com.example.didaktikapp.MensajeMisteriosoActivity$3
+ com.example.didaktikapp.MensajeMisteriosoActivity$4
+com/example/didaktikapp/AhorcadoActivity.java
+ com.example.didaktikapp.AhorcadoActivity
+ com.example.didaktikapp.AhorcadoActivity$1
+ com.example.didaktikapp.AhorcadoActivity$2
+ com.example.didaktikapp.AhorcadoActivity$3
+ com.example.didaktikapp.AhorcadoActivity$4
 com/example/didaktikapp/MenuPrincipalActivity.java
  com.example.didaktikapp.MenuPrincipalActivity
  com.example.didaktikapp.MenuPrincipalActivity$1
@@ -25,23 +65,7 @@ com/example/didaktikapp/MenuPrincipalActivity.java
 com/example/didaktikapp/MapsActivity.java
  com.example.didaktikapp.MapsActivity
  com.example.didaktikapp.MapsActivity$1
-com/example/didaktikapp/DataHelper.java
- com.example.didaktikapp.DataHelper
-com/example/didaktikapp/CrucigramaActivity.java
- com.example.didaktikapp.CrucigramaActivity
- com.example.didaktikapp.CrucigramaActivity$1
-com/example/didaktikapp/model/Grid.java
- com.example.didaktikapp.model.Grid
-com/example/didaktikapp/model/UsedWord.java
- com.example.didaktikapp.model.UsedWord
- com.example.didaktikapp.model.UsedWord$AnswerLine
-com/example/didaktikapp/BitmapUtil.java
- com.example.didaktikapp.BitmapUtil
-com/example/didaktikapp/PuzzleLayout.java
- com.example.didaktikapp.PuzzleLayout
- com.example.didaktikapp.PuzzleLayout$1
- com.example.didaktikapp.PuzzleLayout$2
- com.example.didaktikapp.PuzzleLayout$OnCompleteCallback
+ com.example.didaktikapp.MapsActivity$1$1
 com/example/didaktikapp/MainActivity.java
  com.example.didaktikapp.MainActivity
  com.example.didaktikapp.MainActivity$1

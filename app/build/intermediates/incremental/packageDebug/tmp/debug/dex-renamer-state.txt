@@ -1,4 +1,4 @@
-#Mon Dec 21 09:12:54 CET 2020
+#Tue Dec 22 14:08:20 CET 2020
 base.0=/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

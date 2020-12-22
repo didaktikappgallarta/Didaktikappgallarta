@@ -24,7 +24,7 @@ public class CrucigramaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crucigrama);
 
-        EditText h = findViewById(R.id.h);
+        /*EditText h = findViewById(R.id.h);
         EditText a = findViewById(R.id.a);
 
         descripciones.add("1. Saludo comunmente utilizado por las personas");
@@ -116,6 +116,6 @@ public class CrucigramaActivity extends AppCompatActivity {
             if (descripciones.get(i).equals(descripcion.getText().toString())) {
                 descripcion.setText(descripciones.get(i-1));
             }
-        }
+        }*/
     }
 }

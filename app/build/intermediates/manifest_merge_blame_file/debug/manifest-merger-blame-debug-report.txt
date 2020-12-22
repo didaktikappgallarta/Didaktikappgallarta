@@ -30,7 +30,7 @@
 19-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 20
 21    <application
-21-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:7:5-43:19
+21-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:7:5-58:19
 22        android:allowBackup="true"
 22-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:8:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -46,87 +46,103 @@
 28-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:12:9-54
 29        android:supportsRtl="true"
 29-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:13:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Didaktikapp" >
-31-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:14:9-49
-32        <activity android:name="com.example.didaktikapp.DialogoActivity" />
-32-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:15:9-62
-32-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:15:19-50
-33        <activity
-33-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:16:9-18:53
-34            android:name="com.example.didaktikapp.PuzzleActivity"
-34-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:17:13-43
-35            android:screenOrientation="landscape" />
-35-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:18:13-50
-36
-37        <meta-data
-37-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:20:9-22:55
-38            android:name="com.google.android.geo.API_KEY"
-38-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:21:13-58
-39            android:value="@string/google_maps_key" />
-39-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:22:13-52
-40
-41        <activity android:name="com.example.didaktikapp.MainActivity" >
-41-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:24:9-32:20
-41-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:24:19-47
+30        android:theme="@style/Theme.Didaktikapp" >
+30-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:14:9-49
+31        <activity
+31-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:15:9-18:65
+32            android:name="com.example.didaktikapp.DialogoActivity"
+32-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:16:13-44
+33            android:supportsRtl="true"
+33-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:17:13-39
+34            android:theme="@style/Theme.AppCompat.Translucent" />
+34-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:18:13-63
+35        <activity
+35-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:20:9-22:53
+36            android:name="com.example.didaktikapp.PuzzleActivity"
+36-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:21:13-43
+37            android:screenOrientation="landscape" />
+37-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:22:13-50
+38
+39        <meta-data
+39-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:24:9-26:55
+40            android:name="com.google.android.geo.API_KEY"
+40-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:25:13-58
+41            android:value="@string/google_maps_key" />
+41-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:26:13-52
 42
-43            <!-- android:theme="@style/SplashTheme"/> Aquí llamamos nuestro tema -->
-44            <intent-filter>
-44-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:27:13-31:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:17-69
-45-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:30:17-77
-47-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:30:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:33:9-35:59
-51            android:name="com.example.didaktikapp.MapsActivity"
-51-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:34:13-41
-52            android:label="@string/title_activity_maps" />
-52-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:35:13-56
-53        <activity android:name="com.example.didaktikapp.CrucigramaActivity" />
-53-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:36:9-56
-53-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:36:19-53
-54        <activity android:name="com.example.didaktikapp.VideoCrucigramaActivity" />
-54-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:37:9-61
-54-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:37:19-58
-55        <activity android:name="com.example.didaktikapp.MenuPrincipalActivity" />
-55-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:38:9-59
-55-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:38:19-56
-56
-57        <meta-data
-57-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:9-42:57
-58            android:name="preloaded_fonts"
-58-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:41:13-43
-59            android:resource="@array/preloaded_fonts" />
-59-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:42:13-54
-60        <!-- Needs to be explicitly declared on P+ -->
-61        <uses-library
-61-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-62            android:name="org.apache.http.legacy"
-62-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-63            android:required="false" />
-63-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+43        <activity android:name="com.example.didaktikapp.MainActivity" >
+43-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:9-36:20
+43-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:19-47
+44
+45            <!-- android:theme="@style/SplashTheme"/> Aquí llamamos nuestro tema -->
+46            <intent-filter>
+46-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:31:13-35:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:32:17-69
+47-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:32:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:34:17-77
+49-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:34:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:37:9-39:59
+53            android:name="com.example.didaktikapp.MapsActivity"
+53-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:38:13-41
+54            android:label="@string/title_activity_maps" />
+54-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:39:13-56
+55        <activity android:name="com.example.didaktikapp.CrucigramaActivity" />
+55-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:9-56
+55-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:19-53
+56        <activity android:name="com.example.didaktikapp.VideoCrucigramaActivity" />
+56-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:42:9-61
+56-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:42:19-58
+57        <activity android:name="com.example.didaktikapp.MenuPrincipalActivity" />
+57-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:44:9-59
+57-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:44:19-56
+58        <activity android:name="com.example.didaktikapp.MemoramaActivity" >
+58-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:46:9-48:20
+58-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:46:19-51
+59        </activity>
+60        <activity android:name="com.example.didaktikapp.AhorcadoActivity" >
+60-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:49:9-51:20
+60-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:49:19-51
+61        </activity>
+62        <activity android:name="com.example.didaktikapp.MensajeMisteriosoActivity" >
+62-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:52:9-54:20
+62-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:52:19-60
+63        </activity>
 64
-65        <activity
-65-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-66-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-67            android:exported="false"
-67-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-68-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-69
-70        <meta-data
-70-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-71            android:name="com.google.android.gms.version"
-71-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-72            android:value="@integer/google_play_services_version" />
-72-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-73    </application>
-74
-75</manifest>
+65        <meta-data
+65-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:55:9-57:57
+66            android:name="preloaded_fonts"
+66-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:56:13-43
+67            android:resource="@array/preloaded_fonts" />
+67-->/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:57:13-54
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a998b89aa33dba7d2af0bd1f1f02715b/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4858ba8f6e273fdf2dcb9d88023c9534/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+81    </application>
+82
+83</manifest>
