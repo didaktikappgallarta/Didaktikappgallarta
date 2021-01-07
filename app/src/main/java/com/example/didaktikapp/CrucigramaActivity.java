@@ -126,7 +126,13 @@ public class CrucigramaActivity extends AppCompatActivity {
     }
 
     public void comprobarCrucigrama(View view) {
+        if (mMuseoa.getText().toString() + uMuseoa.getText().toString() + sMuseoa.getText().toString() + eMuseoa.getText().toString() + oMuseoa.getText().toString() + aMuesoa.getText().toString() == "MUSEOA" &&
+        mMeategi.getText().toString() + eMeategi.getText().toString() + aMeategi.getText().toString() + tMeategi.getText().toString() + teMeategi.getText().toString() + gMeategi.getText().toString() + iMeategi.getText().toString() == "MEATEGI" &&
+        cConcha.getText().toString() + oConcha.getText().toString() + nConcha.getText().toString() + chConcha.getText().toString() + hConcha.getText().toString() + aConcha.getText().toString() == "CONCHA" &&
+        oOspetsua.getText().toString() + sOspetsua.getText().toString() + pOspetsua.getText().toString() + eOspetsua.getText().toString() + tOspetsua.getText().toString() + tsOspetsua.getText().toString() + uOspetsua.getText().toString() + aOspetsua.getText().toString() == "OSPETSUA")
+        {
 
+        }
 
     }
 
@@ -163,12 +169,40 @@ public class CrucigramaActivity extends AppCompatActivity {
         uOspetsua = findViewById(R.id.uOspetsua);
         aOspetsua = findViewById(R.id.aOspetsua);
 
+        bBagoneta = findViewById(R.id.bBagoneta);
+        aBagoneta = findViewById(R.id.aBagoneta);
+        gBagoneta = findViewById(R.id.gBagoneta);
+        oBagoneta = findViewById(R.id.oBagoneta);
+        nBagoneta = findViewById(R.id.nBagoneta);
+        eBagoneta = findViewById(R.id.eBagoneta);
+        tBagoneta = findViewById(R.id.tBagoneta);
+        taBagoneta = findViewById(R.id.taBagoneta);
+
         if (descripciones.get(4).equals(descripcion.getText().toString())) {
             descripcion.setText(descripciones.get(0));
+
+            bBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            aBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            gBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            oBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            nBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            eBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            tBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+            taBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+
+            sOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            pOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            eOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            tOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            tsOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            uOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            aOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+
         } else {
             for( int i = 0; i < descripciones.size();i++ ) {
                 if (descripciones.get(i).equals(descripcion.getText().toString())) {
                     int siguienteNumero = i + 1;
+
                     descripcion.setText(descripciones.get(siguienteNumero));
 
                     switch (siguienteNumero) {
@@ -179,7 +213,6 @@ public class CrucigramaActivity extends AppCompatActivity {
                             eMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja));
                             oMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja));
                             aMuesoa.setBackgroundColor(getResources().getColor(R.color.naranja));
-
 
                             bBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
                             aBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
@@ -243,7 +276,6 @@ public class CrucigramaActivity extends AppCompatActivity {
                             break;
                     }
 
-
                     break;
                 }
             }
@@ -255,16 +287,140 @@ public class CrucigramaActivity extends AppCompatActivity {
 
     public void anteriorDescripcion(View view) {
         TextView descripcion = findViewById(R.id.descripcion);
+        mMuseoa = findViewById(R.id.mMuseoa);
+        uMuseoa = findViewById(R.id.uMuseoa);
+        sMuseoa = findViewById(R.id.sMuseoa);
+        eMuseoa = findViewById(R.id.eOspetsua);
+        oMuseoa = findViewById(R.id.oMuseoa);
+        aMuesoa = findViewById(R.id.aMuseoa);
+
+        mMeategi = findViewById(R.id.mMuseoa);
+        eMeategi = findViewById(R.id.eMeategi);
+        aMeategi = findViewById(R.id.aMeategi);
+        tMeategi = findViewById(R.id.tMeategi);
+        teMeategi = findViewById(R.id.teMeategi);
+        gMeategi = findViewById(R.id.gMeategi);
+        iMeategi = findViewById(R.id.iMeategi);
+
+        cConcha = findViewById(R.id.cConcha);
+        oConcha = findViewById(R.id.oMuseoa);
+        nConcha = findViewById(R.id.nConcha);
+        chConcha = findViewById(R.id.chConcha);
+        hConcha = findViewById(R.id.hConcha);
+        aConcha = findViewById(R.id.aConcha);
+
+        oOspetsua  = findViewById(R.id.oBagoneta);
+        sOspetsua = findViewById(R.id.sOspetsua);
+        pOspetsua = findViewById(R.id.pOspetsua);
+        eOspetsua = findViewById(R.id.eOspetsua);
+        tOspetsua = findViewById(R.id.tOspetsua);
+        tsOspetsua = findViewById(R.id.tsOspetsua);
+        uOspetsua = findViewById(R.id.uOspetsua);
+        aOspetsua = findViewById(R.id.aOspetsua);
+
+        bBagoneta = findViewById(R.id.bBagoneta);
+        aBagoneta = findViewById(R.id.aBagoneta);
+        gBagoneta = findViewById(R.id.gBagoneta);
+        oBagoneta = findViewById(R.id.oBagoneta);
+        nBagoneta = findViewById(R.id.nBagoneta);
+        eBagoneta = findViewById(R.id.eBagoneta);
+        tBagoneta = findViewById(R.id.tBagoneta);
+        taBagoneta = findViewById(R.id.taBagoneta);
+
         if (descripciones.get(0).equals(descripcion.getText().toString())) {
             descripcion.setText(descripciones.get(4));
+
+            oOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+            sOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+            pOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+            eOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja));
+            tOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja));
+            tsOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja));
+            uOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja));
+            aOspetsua.setBackgroundColor(getResources().getColor(R.color.naranja));
+
+            bBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            aBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            gBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            nBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            eBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            tBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+            taBagoneta.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+
         } else {
             for( int i = 0; i < descripciones.size();i++ ) {
                 if (descripciones.get(i).equals(descripcion.getText().toString())) {
                     int numeroAnterior = i - 1;
                     descripcion.setText(descripciones.get(numeroAnterior));
 
+                    System.out.println(numeroAnterior + "eeeeeeeeeeeeeeeeeeeeeeeeeyyyyyyyyyyy");
                     switch (numeroAnterior) {
+                        case 0:
+                            bBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            aBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            gBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            oBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            nBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            eBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            tBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            taBagoneta.setBackgroundColor(getResources().getColor(R.color.naranja));
+
+                            mMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            uMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            sMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            eMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            oMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            aMuesoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            break;
                         case 1:
+                            mMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            eMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            aMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            tMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            teMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            gMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            iMeategi.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+
+                            mMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            uMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            sMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            eMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            oMuseoa.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            aMuesoa.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            break;
+                        case 2:
+                            cConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            oConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            nConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            chConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            hConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            aConcha.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+
+                            mMeategi.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            eMeategi.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            aMeategi.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            tMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            teMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            gMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            iMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            break;
+                        case 3:
+                            oOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            sOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            pOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            eOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            tOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            tsOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            uOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+                            aOspetsua.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
+
+                            cConcha.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            oConcha.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            nConcha.setBackgroundColor(getResources().getColor(R.color.naranja)) ;
+                            chConcha.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            hConcha.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            aConcha.setBackgroundColor(getResources().getColor(R.color.naranja));
+                            break;
                     }
                 }
             }
