@@ -4,6 +4,7 @@ ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/6131b6bd4c7f07422046f47512bfed9d/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/dm2/.gradle/caches/transforms-2/files-2.1/b8718484daa03109e40dacfa216193fb/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/4f9c7f78c15bb692cf0895b881aafbad/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
@@ -165,6 +166,8 @@ uses-sdk
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/6131b6bd4c7f07422046f47512bfed9d/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/6131b6bd4c7f07422046f47512bfed9d/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/dm2/.gradle/caches/transforms-2/files-2.1/b8718484daa03109e40dacfa216193fb/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
