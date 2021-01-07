@@ -10,7 +10,21 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="" />
+    <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +57,11 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/APK Key.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -52,10 +71,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Didaktikapp.app" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_23" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-15T13:26:06.866Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/home/dm2/DAM/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_SELECTED" value="PuzzleLayout" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_SELECTED" value="GestureDetectGridView" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_SELECTED" value="PuzzleLayout" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_SELECTED" value="PuzzleLayout" />
@@ -66,7 +87,8 @@
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/androidTest/assets" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1607672535765" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1608540970757" />
+    <property name="multi-representation-preview/home/dm2/DAM/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
@@ -242,47 +264,56 @@
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="518" y="164" width="325" height="412" key="AndroidCreateXmlResourceDialog/0.0.1366.741@0.0.1366.741" timestamp="1606820169622" />
-    <state x="466" y="127" width="430" height="482" key="FileChooserDialogImpl" timestamp="1607082715992">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="491" y="152" width="424" height="536" key="FileChooserDialogImpl" timestamp="1608642763700">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
     <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606910839946" />
-    <state width="1322" height="178" key="GridCell.Tab.0.bottom" timestamp="1608538445171">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="491" y="152" width="424" height="536" key="FileChooserDialogImpl/0.0.1440.873@0.0.1440.873" timestamp="1608642763700" />
+    <state width="1388" height="346" key="GridCell.Tab.0.bottom" timestamp="1610007029086">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1608538445171" />
-    <state width="1322" height="178" key="GridCell.Tab.0.center" timestamp="1608538445170">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1388" height="346" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.center" timestamp="1610007029086">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1322" height="178" key="GridCell.Tab.0.left" timestamp="1608538445170">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1388" height="346" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.left" timestamp="1610007029086">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1322" height="178" key="GridCell.Tab.0.right" timestamp="1608538445170">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1388" height="346" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.right" timestamp="1610007029086">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1322" height="225" key="GridCell.Tab.1.bottom" timestamp="1608038873113">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1388" height="346" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1398" height="221" key="GridCell.Tab.1.bottom" timestamp="1608644023250">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1322" height="225" key="GridCell.Tab.1.bottom/0.0.1366.741@0.0.1366.741" timestamp="1608038873113" />
-    <state width="1322" height="225" key="GridCell.Tab.1.center" timestamp="1608038873113">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1398" height="221" key="GridCell.Tab.1.bottom/0.0.1440.873@0.0.1440.873" timestamp="1608644023250" />
+    <state width="1398" height="221" key="GridCell.Tab.1.center" timestamp="1608644023249">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1322" height="225" key="GridCell.Tab.1.center/0.0.1366.741@0.0.1366.741" timestamp="1608038873113" />
-    <state width="1322" height="225" key="GridCell.Tab.1.left" timestamp="1608038873113">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1398" height="221" key="GridCell.Tab.1.center/0.0.1440.873@0.0.1440.873" timestamp="1608644023249" />
+    <state width="1398" height="221" key="GridCell.Tab.1.left" timestamp="1608644023249">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1322" height="225" key="GridCell.Tab.1.left/0.0.1366.741@0.0.1366.741" timestamp="1608038873113" />
-    <state width="1322" height="225" key="GridCell.Tab.1.right" timestamp="1608038873113">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1398" height="221" key="GridCell.Tab.1.left/0.0.1440.873@0.0.1440.873" timestamp="1608644023249" />
+    <state width="1398" height="221" key="GridCell.Tab.1.right" timestamp="1608644023249">
+      <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1322" height="225" key="GridCell.Tab.1.right/0.0.1366.741@0.0.1366.741" timestamp="1608038873113" />
+    <state width="1398" height="221" key="GridCell.Tab.1.right/0.0.1440.873@0.0.1440.873" timestamp="1608644023249" />
     <state x="187" y="6" key="SettingsEditor" timestamp="1608033187478">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -296,5 +327,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607087510890" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
