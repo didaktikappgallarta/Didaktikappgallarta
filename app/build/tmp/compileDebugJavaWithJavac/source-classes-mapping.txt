@@ -69,3 +69,7 @@ com/example/didaktikapp/MainActivity.java
 com/example/didaktikapp/CrucigramaActivity.java
  com.example.didaktikapp.CrucigramaActivity
  com.example.didaktikapp.CrucigramaActivity$1
+ com.example.didaktikapp.CrucigramaActivity$2
+ com.example.didaktikapp.CrucigramaActivity$3
+ com.example.didaktikapp.CrucigramaActivity$4
+ com.example.didaktikapp.CrucigramaActivity$5

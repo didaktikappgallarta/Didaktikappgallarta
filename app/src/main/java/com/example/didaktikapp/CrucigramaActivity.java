@@ -1,5 +1,7 @@
 package com.example.didaktikapp;
 
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -12,6 +14,7 @@ import android.widget.GridLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
@@ -126,14 +129,53 @@ public class CrucigramaActivity extends AppCompatActivity {
     }
 
     public void comprobarCrucigrama(View view) {
-        if (mMuseoa.getText().toString() + uMuseoa.getText().toString() + sMuseoa.getText().toString() + eMuseoa.getText().toString() + oMuseoa.getText().toString() + aMuesoa.getText().toString() == "MUSEOA" &&
-        mMeategi.getText().toString() + eMeategi.getText().toString() + aMeategi.getText().toString() + tMeategi.getText().toString() + teMeategi.getText().toString() + gMeategi.getText().toString() + iMeategi.getText().toString() == "MEATEGI" &&
-        cConcha.getText().toString() + oConcha.getText().toString() + nConcha.getText().toString() + chConcha.getText().toString() + hConcha.getText().toString() + aConcha.getText().toString() == "CONCHA" &&
-        oOspetsua.getText().toString() + sOspetsua.getText().toString() + pOspetsua.getText().toString() + eOspetsua.getText().toString() + tOspetsua.getText().toString() + tsOspetsua.getText().toString() + uOspetsua.getText().toString() + aOspetsua.getText().toString() == "OSPETSUA")
-        {
+        String museoa = mMuseoa.getText().toString() + uMuseoa.getText().toString() + sMuseoa.getText().toString() + eMuseoa.getText().toString() + oMuseoa.getText().toString() + aMuesoa.getText().toString();
+        String meategi = mMeategi.getText().toString() + eMeategi.getText().toString() + aMeategi.getText().toString() + tMeategi.getText().toString() + teMeategi.getText().toString() + gMeategi.getText().toString() + iMeategi.getText().toString();
+        String concha =  cConcha.getText().toString() + oConcha.getText().toString() + nConcha.getText().toString() + chConcha.getText().toString() + hConcha.getText().toString() + aConcha.getText().toString();
+        String ospetsua = oOspetsua.getText().toString() + sOspetsua.getText().toString() + pOspetsua.getText().toString() + eOspetsua.getText().toString() + tOspetsua.getText().toString() + tsOspetsua.getText().toString() + uOspetsua.getText().toString() + aOspetsua.getText().toString();
+        String bagoneta = bBagoneta.getText().toString() + aBagoneta.getText().toString() + gBagoneta.getText().toString() + oBagoneta.getText().toString() + nBagoneta.getText().toString() + eBagoneta.getText().toString() + tBagoneta.getText().toString() + taBagoneta.getText().toString();
 
+        System.out.println(museoa + " " +  meategi  + " " + concha  + " " + ospetsua + " " + bagoneta);
+
+        if (museoa.equals("MUSEOA") && meategi.equals("MEATEGI") && concha.equals("CONCHA") && ospetsua.equals("OSPETSUA") && bagoneta.equals("BAGONETA")) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Ganaste");
+            builder.setMessage("Felicidades!");
+            builder.setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+            builder.setNegativeButton("Salir", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+            builder.show();
+        } else {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Perdiste");
+            builder.setMessage("Lo sentimos!");
+            builder.setPositiveButton("Jugar de nuevo", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+            builder.setNegativeButton("Salir", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
+            });
+            builder.show();
         }
-
     }
 
     public void siguienteDescripcion(View view) {
@@ -233,7 +275,6 @@ public class CrucigramaActivity extends AppCompatActivity {
                             gMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
                             iMeategi.setBackgroundColor(getResources().getColor(R.color.naranja));
 
-                            mMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
                             uMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
                             sMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));
                             eMuseoa.setBackground(getResources().getDrawable(R.drawable.edit_text_border));

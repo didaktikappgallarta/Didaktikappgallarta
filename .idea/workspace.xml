@@ -19,16 +19,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/CrucigramaActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_23]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -268,30 +270,30 @@
     <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
     <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1606910839946" />
     <state x="491" y="152" width="424" height="536" key="FileChooserDialogImpl/0.0.1440.873@0.0.1440.873" timestamp="1608642763700" />
-    <state width="1398" height="221" key="GridCell.Tab.0.bottom" timestamp="1608644023249">
+    <state width="1388" height="346" key="GridCell.Tab.0.bottom" timestamp="1610007029086">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1608538445171" />
-    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1608644023249" />
-    <state width="1398" height="221" key="GridCell.Tab.0.center" timestamp="1608644023248">
+    <state width="1388" height="346" key="GridCell.Tab.0.bottom/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.center" timestamp="1610007029086">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1398" height="221" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1608644023248" />
-    <state width="1398" height="221" key="GridCell.Tab.0.left" timestamp="1608644023248">
+    <state width="1388" height="346" key="GridCell.Tab.0.center/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.left" timestamp="1610007029086">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1398" height="221" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1608644023248" />
-    <state width="1398" height="221" key="GridCell.Tab.0.right" timestamp="1608644023249">
+    <state width="1388" height="346" key="GridCell.Tab.0.left/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
+    <state width="1388" height="346" key="GridCell.Tab.0.right" timestamp="1610007029086">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
     <state width="1322" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1608538445170" />
-    <state width="1398" height="221" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1608644023249" />
+    <state width="1388" height="346" key="GridCell.Tab.0.right/0.0.1440.873@0.0.1440.873" timestamp="1610007029086" />
     <state width="1398" height="221" key="GridCell.Tab.1.bottom" timestamp="1608644023250">
       <screen x="0" y="0" width="1440" height="873" />
     </state>
@@ -331,7 +333,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java</url>
-          <line>358</line>
+          <line>400</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
