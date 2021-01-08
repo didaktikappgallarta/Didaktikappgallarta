@@ -19,6 +19,7 @@
         android:required="true" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -29,7 +30,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Didaktikapp" >
-        <activity android:name="com.example.didaktikapp.DialogoActivity" />
+        <activity
+            android:name="com.example.didaktikapp.DialogoActivity"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.AppCompat.Translucent" />
         <activity
             android:name="com.example.didaktikapp.PuzzleActivity"
             android:screenOrientation="landscape" />
@@ -53,6 +57,12 @@
         <activity android:name="com.example.didaktikapp.CrucigramaActivity" />
         <activity android:name="com.example.didaktikapp.VideoCrucigramaActivity" />
         <activity android:name="com.example.didaktikapp.MenuPrincipalActivity" />
+        <activity android:name="com.example.didaktikapp.MemoramaActivity" >
+        </activity>
+        <activity android:name="com.example.didaktikapp.AhorcadoActivity" >
+        </activity>
+        <activity android:name="com.example.didaktikapp.MensajeMisteriosoActivity" >
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"

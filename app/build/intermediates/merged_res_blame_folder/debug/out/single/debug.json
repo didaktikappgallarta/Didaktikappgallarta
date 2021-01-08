@@ -20,6 +20,14 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/menu_principal.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_letter_bg.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/letter_bg.xml"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_mezu_misteriotsua2.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/mezu_misteriotsua2.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa1.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/karmele_animazioa1.png"
     },
@@ -32,40 +40,60 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/edit_text_border.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_memorama.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_memorama.xml"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera7.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera7.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_body.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/body.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_idioma.jpg.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/idioma.jpg"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_head.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/head.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_leg_left.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/leg_left.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_mapa_noche.JSON.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/mapa_noche.JSON"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_bigarrenirudia.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/bigarrenirudia.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_dialogo_idioma.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/dialogo_idioma.xml"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_wrong.mp3.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/wrong.mp3"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_zugaztieta_puzzlea.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/zugaztieta_puzzlea.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_wrong.mp3.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/wrong.mp3"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera4.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera4.txt"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa6.png.flat",
@@ -80,12 +108,16 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria1.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria1.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria1.txt.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria1.txt"
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_interrogacion.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/interrogacion.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",
@@ -112,6 +144,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/anim/desplazamineto_arriba.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_mezu_misteriotsua.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/mezu_misteriotsua.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
@@ -124,12 +160,20 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera1.txt"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_ahorcado.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_ahorcado.xml"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_play.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/play.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_upv.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/upv.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -140,6 +184,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/karmele_animazioa2.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_cuerda.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/cuerda.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
@@ -148,12 +196,24 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_dialogo.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_mensaje_misterioso.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_mensaje_misterioso.xml"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-hdpi_zugaztieta_puzzlea.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-hdpi/zugaztieta_puzzlea.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_hirugarrenirudia.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/hirugarrenirudia.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa3.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/karmele_animazioa3.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_arm_left.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/arm_left.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_marca.png.flat",
@@ -180,12 +240,20 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/help.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_letter.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/letter.xml"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_arm_right.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/arm_right.png"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_puzzle_piece_move.wav.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/puzzle_piece_move.wav"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_crucigrama.xml.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/crucigrama.xml"
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_crucigrama.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_crucigrama.xml"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_navigation.png.flat",
@@ -224,12 +292,28 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_imagenes_memorama.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/imagenes_memorama.xml"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera6.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera6.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/font_aclonica.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/font/aclonica.xml"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_leg_right.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/leg_right.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_llenar_huecos.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_llenar_huecos.xml"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_lehenengoirudia.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/lehenengoirudia.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa4.png.flat",
@@ -246,6 +330,10 @@
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_mapa_dia.JSON.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/mapa_dia.JSON"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_laugarrenirudia.png.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/laugarrenirudia.png"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",

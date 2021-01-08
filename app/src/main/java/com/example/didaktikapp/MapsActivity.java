@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.os.Handler;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -15,6 +16,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -50,7 +52,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
         cameraPosition= new CameraPosition.Builder()
                 //.target(new LatLng(43.318930, -3.071035))
                 .target(new LatLng(43.311472, -3.070639))
-                .zoom(25)
+                .zoom(20)
                 .tilt(40)
                 .bearing(20)
                 .build();
@@ -60,43 +62,43 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
         LatLng zugaztieta = new LatLng(43.284306, -3.054611);
         map.addMarker(new MarkerOptions()
                 .position(zugaztieta)
-                .title("Marca de zugaztieta")
+                //.title("Marca de zugaztieta")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng conchaMeategia = new LatLng(43.309194, -3.073000);
         map.addMarker(new MarkerOptions()
                 .position(conchaMeategia)
-                .title("Marca de la mina de Concha")
+                //.title("Marca de la mina de Concha")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng meatzaritzarenMuseoa = new LatLng(43.311556, -3.070583);
         map.addMarker(new MarkerOptions()
                 .position(meatzaritzarenMuseoa)
-                .title("Marca del museo de la mineria")
+                //.title("Marca del museo de la mineria")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng garraioa = new LatLng(43.311472, -3.070639);
         map.addMarker(new MarkerOptions()
                 .position(garraioa)
-                .title("Marca del transporte")
+                //.title("Marca del transporte")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng areilzaDoktorea = new LatLng(43.315778, -3.072722);
         map.addMarker(new MarkerOptions()
                 .position(areilzaDoktorea)
-                .title("Marca del doctor Areilza")
+                //.title("Marca del doctor Areilza")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng laPasionaria = new LatLng(43.316806, -3.074694);
         map.addMarker(new MarkerOptions()
                 .position(laPasionaria)
-                .title("Marca de la Pasionaria")
+                //.title("Marca de la Pasionaria")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         LatLng allIron = new LatLng(43.320194, -3.070806);
         map.addMarker(new MarkerOptions()
                 .position(allIron)
-                .title("Marca de all Iron")
+                //.title("Marca de all Iron")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.marca)));
 
         map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
@@ -104,40 +106,50 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
             public boolean onMarkerClick(Marker m) {
                 String marca = m.getId();
 
-                Intent intent = new Intent(MapsActivity.this, DialogoActivity.class);
+                CameraUpdate location = CameraUpdateFactory.newLatLngZoom(
+                        m.getPosition(), 10.0f);
+                map.animateCamera(location);
+
+                new Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        Intent intent = new Intent(MapsActivity.this, DialogoActivity.class);
 
 
-                switch (marca)
-                {
-                    case "m0":
-                        intent.putExtra("marca", "Zugaztieta");
-                        break;
+                        switch (marca)
+                        {
+                            case "m0":
+                                intent.putExtra("marca", "Zugaztieta");
+                                break;
 
-                    case "m1":
-                        intent.putExtra("marca", "MinaConcha");
-                        break;
+                            case "m1":
+                                intent.putExtra("marca", "MinaConcha");
+                                break;
 
-                    case "m2":
-                        intent.putExtra("marca", "MuesoMineria");
-                        break;
+                            case "m2":
+                                intent.putExtra("marca", "MuesoMineria");
+                                break;
 
-                    case "m3":
-                        intent.putExtra("marca", "Transporte");
-                        break;
+                            case "m3":
+                                intent.putExtra("marca", "Transporte");
+                                break;
 
-                    case "m4":
-                        intent.putExtra("marca", "DoctorAreilza");
-                        break;
+                            case "m4":
+                                intent.putExtra("marca", "DoctorAreilza");
+                                break;
 
-                    case "m5":
-                        intent.putExtra("marca", "Pasionaria");
-                        break;
+                            case "m5":
+                                intent.putExtra("marca", "Pasionaria");
+                                break;
 
-                    case "m6":
-                        intent.putExtra("marca", "AllIron");
-                        break;
-                }
-                startActivity(intent);
+                            case "m6":
+                                intent.putExtra("marca", "AllIron");
+                                break;
+                        }
+                        startActivity(intent);
+                    }
+                }, 700);
+
                 return false;
             }
 

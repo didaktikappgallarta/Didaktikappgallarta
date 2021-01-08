@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="palabras">
-        <item>ANDROID</item>
-        <item>COMPUTADORA</item>
-        <item>SMARPHONE</item>
-        <item>CAFE</item>
-        <item>CODY</item>
-        <item>CODIGOFACILITO</item>
+        <item>MEATEGIA</item>
+        <item>PASIONARIA</item>
+        <item>ESKUBIDEAK</item>
+        <item>EMAKUMEA</item>
+        <item>IRAULTZA</item>
     </string-array>
 </resources>
