@@ -21,6 +21,7 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
 
     //la imagen del puzzle
     int drawableId = R.mipmap.zugaztieta_puzzlea;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

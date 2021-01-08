@@ -115,7 +115,6 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
                     public void run() {
                         Intent intent = new Intent(MapsActivity.this, DialogoActivity.class);
 
-
                         switch (marca)
                         {
                             case "m0":
@@ -127,7 +126,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMyLoca
                                 break;
 
                             case "m2":
-                                intent.putExtra("marca", "MuesoMineria");
+                                intent.putExtra("marca", "MuseoMineria");
                                 break;
 
                             case "m3":

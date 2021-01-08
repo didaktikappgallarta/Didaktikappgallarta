@@ -5,10 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:forceDarkAllowed="false"
+    android:onClick="pasarActividad"
     tools:context=".DialogoActivity">
 
+    <TextView
+        android:id="@+id/actividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
-        android:id="@+id/imageView3"
+        android:onClick="pasarActividad"
+        android:id="@+id/karmele"
         android:layout_width="236dp"
         android:layout_height="420dp"
         android:layout_marginStart="8dp"
@@ -19,6 +31,7 @@
         app:srcCompat="@drawable/karmele_animazioa1" />
 
     <TextView
+        android:onClick="pasarActividad"
         android:id="@+id/dialogo"
         android:layout_width="0dp"
         android:layout_height="204dp"
