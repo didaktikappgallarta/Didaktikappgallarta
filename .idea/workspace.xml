@@ -10,13 +10,18 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="" />
+    <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays_ahorcado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays_ahorcado.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6P_API_23]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -90,13 +95,6 @@
       <recent name="com.example.didaktikapp.commons" />
       <recent name="com.example.didaktikapp.di.component" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
-      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
-    </key>
     <key name="android.template.-220974650">
       <recent name="com.example.didaktikapp" />
     </key>
@@ -106,10 +104,17 @@
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/Acividad1" />
     </key>
-    <key name="android.template.213329836">
-      <recent name="com.example.didaktikapp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
+      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.didaktikapp" />
+    </key>
+    <key name="android.template.213329836">
       <recent name="com.example.didaktikapp" />
     </key>
   </component>
