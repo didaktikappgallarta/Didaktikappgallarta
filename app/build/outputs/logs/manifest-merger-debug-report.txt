@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/6131b6bd4c7f07422046f47512bfed9d/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/dm2/.gradle/caches/transforms-2/files-2.1/b8718484daa03109e40dacfa216193fb/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
@@ -37,20 +37,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/dm2/.gradle/cach
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/06bc4641de51b04d4df94808d6e05292/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/1b64911e987df0fea019408e241659d7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/dm2/.gradle/caches/transforms-2/files-2.1/a77c810a56173ccf6fb339f045a6aacd/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
-INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-60:12
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:2:11-69
@@ -59,7 +59,7 @@ ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest
 	android:name
 		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:7:5-58:19
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:7:5-59:19
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/dm2/.gradle/caches/transforms-2/files-2.1/b8718484daa03109e40dacfa216193fb/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -79,89 +79,91 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/dm2/.
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /home/dm2/.gradle/caches/transforms-2/files-2.1/c560b8721f05ca12656603dd382025ab/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:12:9-41
 	android:hardwareAccelerated
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:9:9-44
 	android:roundIcon
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:13:9-54
+	android:largeHeap
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:10:9-33
 	android:icon
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
 		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:14:9-49
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:15:9-49
 activity#com.example.didaktikapp.DialogoActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:15:9-18:65
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:16:9-19:65
 	android:supportsRtl
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:17:13-39
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:18:13-39
 	android:theme
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:18:13-63
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:19:13-63
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:16:13-44
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:17:13-44
 activity#com.example.didaktikapp.PuzzleActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:20:9-22:53
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:21:9-23:53
 	android:screenOrientation
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:22:13-50
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:23:13-50
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:22:13-43
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:24:9-26:55
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:25:9-27:55
 	android:value
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:26:13-52
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:27:13-52
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:25:13-58
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:26:13-58
 activity#com.example.didaktikapp.MainActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:9-36:20
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:29:9-37:20
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:29:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:35:27-74
 activity#com.example.didaktikapp.MapsActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:37:9-39:59
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:38:9-40:59
 	android:label
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:39:13-56
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:38:13-41
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:39:13-41
 activity#com.example.didaktikapp.CrucigramaActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:9-56
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:41:9-56
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:40:19-53
-activity#com.example.didaktikapp.VideoCrucigramaActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:42:9-61
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:41:19-53
+activity#com.example.didaktikapp.VideoActivity
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:43:9-51
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:42:19-58
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:43:19-48
 activity#com.example.didaktikapp.MenuPrincipalActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:44:9-59
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:45:9-59
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:44:19-56
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:45:19-56
 activity#com.example.didaktikapp.MemoramaActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:46:9-48:20
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:47:9-49:20
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:46:19-51
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:47:19-51
 activity#com.example.didaktikapp.AhorcadoActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:49:9-51:20
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:50:9-52:20
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:49:19-51
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:50:19-51
 activity#com.example.didaktikapp.MensajeMisteriosoActivity
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:52:9-54:20
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:53:9-55:20
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:52:19-60
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:53:19-60
 meta-data#preloaded_fonts
-ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:55:9-57:57
+ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:56:9-58:57
 	android:resource
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:57:13-54
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:58:13-54
 	android:name
-		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:56:13-43
+		ADDED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml:57:13-43
 uses-sdk
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dm2/Escritorio/Didaktikappgallarta/app/src/main/AndroidManifest.xml
