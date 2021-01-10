@@ -2,6 +2,7 @@ package com.example.didaktikapp;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
+import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.DragEvent;
@@ -10,14 +11,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.lang.reflect.Field;
 
 public class RellenarHuecosActivity extends AppCompatActivity {
 
-    private TextView option1, option2, option3, option4, option5, option6, choice1, choice2, choice3, choice4, choice5,choice6;
-
+    private TextView option1, option2, option3, option4, option5, option6, choice1, choice2, choice3, choice4, choice1_2, choice2_2, choice3_2, choice4_2, choice5,choice6;
+    private Integer contador = 0;
     private String name, nameOpcion;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +35,18 @@ public class RellenarHuecosActivity extends AppCompatActivity {
         option6 = (TextView)findViewById(R.id.option_6);
 
         //views to drop onto
-        choice1 = (TextView)findViewById(R.id.kio);
-        choice2 = (TextView)findViewById(R.id.gf);
-        choice3 = (TextView)findViewById(R.id.few);
-        choice4 = (TextView)findViewById(R.id.h);
+        choice1 = (TextView)findViewById(R.id.choice_1);
+        choice1_2 = (TextView)findViewById(R.id.choice_1_2);
+
+        choice2 = (TextView)findViewById(R.id.choice_2);
+        choice2_2 = (TextView)findViewById(R.id.choice_2_2);
+
+        choice3 = (TextView)findViewById(R.id.choice_3);
+        choice3_2 = (TextView)findViewById(R.id.choice_3_2);
+
+        choice4 = (TextView)findViewById(R.id.choice_4);
+        choice4_2 = (TextView)findViewById(R.id.choice_4_2);
+
         choice5 = (TextView)findViewById(R.id.choice_5);
         choice6 = (TextView)findViewById(R.id.choice_6);
 
@@ -113,6 +123,7 @@ public class RellenarHuecosActivity extends AppCompatActivity {
                     //view being dragged and dropped
                     TextView dropped = (TextView) view;
                     //checking whether first character of dropTarget equals first character of dropped
+
                     try {
                         name = getIDName(dropTarget, R.id.class);
                         nameOpcion = getIDName(dropped, R.id.class);
@@ -120,17 +131,29 @@ public class RellenarHuecosActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
 
-                    if((name.equals("choice_3") && nameOpcion.equals("option_1")) || (name.equals("choice_1")  &&  nameOpcion.equals("option_3")) ||
-                            (name.equals("choice_5") && nameOpcion.equals("option_2")) || (name.equals("choice_4") && nameOpcion.equals("option_4")) ||
-                            (name.equals("choice_2") && nameOpcion.equals("option_6")) || (name.equals("choice_6") && nameOpcion.equals("option_5")))
+                    if((name.equals("choice_3") && nameOpcion.equals("option_1")) || (name.equals("choice_3_2") && nameOpcion.equals("option_1")) || (name.equals("choice_1")  &&  nameOpcion.equals("option_3")) || (name.equals("choice_1_2")  &&  nameOpcion.equals("option_3")) ||
+                            (name.equals("choice_5") && nameOpcion.equals("option_2")) || (name.equals("choice_4") && nameOpcion.equals("option_4")) || (name.equals("choice_4_2") && nameOpcion.equals("option_4")) ||
+                            (name.equals("choice_2") && nameOpcion.equals("option_6")) || (name.equals("choice_2_2") && nameOpcion.equals("option_6")) || (name.equals("choice_6") && nameOpcion.equals("option_5")))
                     {
                         System.out.println(name + "holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
                         System.out.println(nameOpcion + "Holaaaaaaaaaaaaaaaaaaaaaaaaa");
 
                         //stop displaying the view where it was before it was dragged
                         view.setVisibility(View.INVISIBLE);
-                        //update the text in the target view to reflect the data being dropped
-                        dropTarget.setText(dropped.getText().toString());
+
+                        if (name.equals("choice_3_2")) {
+                            choice3.setText(dropped.getText().toString());
+                        } else if (name.equals("choice_1_2")) {
+                            choice1.setText(dropped.getText().toString());
+                        } else if (name.equals("choice_2_2")) {
+                            choice2.setText(dropped.getText().toString());
+                        } else if (name.equals("choice_4_2")) {
+                            choice4.setText(dropped.getText().toString());
+                        } else {
+                            //update the text in the target view to reflect the data being dropped
+                            dropTarget.setText(dropped.getText().toString());
+                        }
+
                         //make it bold to highlight the fact that an item has been dropped
                         dropTarget.setTypeface(Typeface.DEFAULT_BOLD);
                         //if an item has already been dropped here, there will be a tag
@@ -147,10 +170,29 @@ public class RellenarHuecosActivity extends AppCompatActivity {
                         dropTarget.setTag(dropped.getId());
                         //remove setOnDragListener by setting OnDragListener to null, so that no further drag & dropping on this TextView can be done
                         dropTarget.setOnDragListener(null);
+
+                        contador = contador + 1;
+
+                        if (contador == 6) {
+                            AlertDialog.Builder builder = new AlertDialog.Builder(RellenarHuecosActivity.this);
+                            builder.setTitle("Ganaste");
+                            builder.setMessage("Felicidades!");
+                            builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // MensajeMisteriosoActivity.class;
+                                }
+                            });
+                            builder.setNegativeButton("Salir", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    RellenarHuecosActivity.this.finish();
+                                }
+                            });
+                            builder.show();
+                        }
                     } else
                         //displays message if first character of dropTarget is not equal to first character of dropped
-                        System.out.println(name + "holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-                        System.out.println(nameOpcion + "Holaaaaaaaaaaaaaaaaaaaaaaaaa");
                         Toast.makeText(RellenarHuecosActivity.this, dropTarget.getText().toString() + "is not " + dropped.getText().toString(), Toast.LENGTH_LONG).show();
                     break;
                 case DragEvent.ACTION_DRAG_ENDED:

@@ -1834,9 +1834,13 @@ id chip2
 id chip3
 id chip_group
 id choice_1
+id choice_1_2
 id choice_2
+id choice_2_2
 id choice_3
+id choice_3_2
 id choice_4
+id choice_4_2
 id choice_5
 id choice_53
 id choice_6
@@ -1930,7 +1934,6 @@ id f6r5
 id f6r6
 id f6r7
 id fade
-id few
 id fill
 id fill_horizontal
 id fill_vertical
@@ -1943,7 +1946,6 @@ id folder
 id forever
 id gBagoneta
 id gMeategi
-id gf
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1952,7 +1954,6 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
-id h
 id hConcha
 id help
 id hideable
@@ -1990,7 +1991,6 @@ id iv_24
 id iv_tips
 id jumpToEnd
 id jumpToStart
-id kio
 id labeled
 id largeLabel
 id layout

@@ -54,40 +54,40 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <TextView
-        android:id="@+id/kio"
+        android:id="@+id/choice_1_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:text="@string/rellenar1"
-        app:layout_constraintBottom_toTopOf="@+id/gf"
+        app:layout_constraintBottom_toTopOf="@+id/choice_2_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/gf"
+        android:id="@+id/choice_2_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:text="@string/rellenar2"
-        app:layout_constraintBottom_toTopOf="@+id/few"
+        app:layout_constraintBottom_toTopOf="@+id/choice_3_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/few"
+        android:id="@+id/choice_3_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="@string/rellenar3"
-        app:layout_constraintBottom_toTopOf="@+id/h"
+        app:layout_constraintBottom_toTopOf="@+id/choice_4_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/h"
+        android:id="@+id/choice_4_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
@@ -141,17 +141,6 @@
         app:layout_constraintStart_toEndOf="@+id/option_2" />
 
     <TextView
-        android:id="@+id/choice_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="____4____"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/choice_3" />
-
-    <TextView
         android:id="@+id/choice_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -160,7 +149,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/h" />
+        app:layout_constraintTop_toBottomOf="@+id/choice_4_2" />
 
     <TextView
         android:id="@+id/choice_6"
@@ -171,7 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.959"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/h" />
+        app:layout_constraintTop_toBottomOf="@+id/choice_4_2" />
 
     <TextView
         android:id="@+id/choice_1"
@@ -179,7 +168,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text="____1____"
-        app:layout_constraintBottom_toBottomOf="@+id/kio"
+        app:layout_constraintBottom_toBottomOf="@+id/choice_1_2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toStartOf="parent" />
@@ -193,7 +182,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.731"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kio" />
+        app:layout_constraintTop_toBottomOf="@+id/choice_1_2" />
 
     <TextView
         android:id="@+id/choice_3"
@@ -204,6 +193,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gf" />
+        app:layout_constraintTop_toBottomOf="@+id/choice_2_2" />
+
+    <TextView
+        android:id="@+id/choice_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="____4____"
+        app:layout_constraintBottom_toBottomOf="@+id/choice_4_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="@+id/choice_4_2"
+        app:layout_constraintTop_toTopOf="@+id/choice_4_2"
+        app:layout_constraintVertical_bias="0.575" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
