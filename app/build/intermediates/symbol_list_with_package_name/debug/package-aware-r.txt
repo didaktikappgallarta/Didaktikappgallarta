@@ -2280,6 +2280,7 @@ layout activity_maps
 layout activity_memorama
 layout activity_mensaje_misterioso
 layout activity_puzzle
+layout activity_video
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2352,7 +2353,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout video_crucigrama
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap zugaztieta_puzzlea
@@ -2373,6 +2373,14 @@ raw karmele_teoria2_pt2
 raw karmele_teoria2_pt3
 raw karmele_teoria2_pt4
 raw karmele_teoria2_pt5
+raw karmele_teoria6_pt1
+raw karmele_teoria6_pt2
+raw karmele_teoria6_pt3
+raw karmele_teoria6_pt4
+raw karmele_teoria7_pt1
+raw karmele_teoria7_pt2
+raw karmele_teoria7_pt3
+raw karmele_teoria7_pt4
 raw mapa_dia
 raw mapa_noche
 raw puzzle_piece_move
