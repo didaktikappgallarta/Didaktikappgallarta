@@ -19,4 +19,15 @@
     <string name="seleccionaIdioma">Hizkuntza hautatu</string>
     <string name="mensaje">Hemen behean ezkutatuta dagoen mezua deszifratu</string>
     <string name="rellenar">Bete hutsuneak esaldiak osatzeko</string>
+    <string name="rellenar1">Mea _____1_______ eta beste eskualde batzuetako burdinoletara bidaltzeko, mendietatik ontziralekuetara eraman behar zen.</string>
+    <string name="rellenar2">Hasieran, minerala __2__ eta mando gurdiz jaisten zen.</string>
+    <string name="rellenar3">Urteak pasa ahala,atzerriko eskariak,____3____produkzioa izugarri haztea ekarri zuen.</string>
+    <string name="rellenar4">Hasieran,animaliak erabiltzen zituzten, baina poliki-poliki ____4____ ordezkatzen hasi ziren, besteak beste, teleferikoarekin eta trenbidearekin.</string>
+    <string name="rellenar5">____5____, garraio-sistemabatda, non___6___ kable baten bidez herrestan eramaten diren.</string>
+    <string name="respuesta1">Euskal Herriko</string>
+    <string name="respuesta2">idi</string>
+    <string name="respuesta3">mineral</string>
+    <string name="respuesta4">makinekin</string>
+    <string name="respuesta5">Funikularra</string>
+    <string name="respuesta6">bagoiak</string>
 </resources>
