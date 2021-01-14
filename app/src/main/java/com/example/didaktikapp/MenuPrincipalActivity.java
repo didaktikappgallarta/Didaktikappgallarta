@@ -75,13 +75,15 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
             @Override
             public void onClick(View v) {
+                Locale myLocale = new Locale("es");
                 Resources res = getResources();
-                DisplayMetrics dn = res.getDisplayMetrics();
+                DisplayMetrics dm = res.getDisplayMetrics();
                 Configuration conf = res.getConfiguration();
-
-                conf.setLocale(new Locale("es"));
-                dialog.dismiss();
-
+                conf.locale = myLocale;
+                res.updateConfiguration(conf, dm);
+                Intent refresh = new Intent(MenuPrincipalActivity.this, MenuPrincipalActivity.class);
+                finish();
+                startActivity(refresh);
             }
         });
 
@@ -89,12 +91,15 @@ public class MenuPrincipalActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
             @Override
             public void onClick(View v) {
+                Locale myLocale = new Locale("eu");
                 Resources res = getResources();
-                DisplayMetrics dn = res.getDisplayMetrics();
+                DisplayMetrics dm = res.getDisplayMetrics();
                 Configuration conf = res.getConfiguration();
-
-                conf.setLocale(new Locale("eu"));
-                dialog.dismiss();
+                conf.locale = myLocale;
+                res.updateConfiguration(conf, dm);
+                Intent refresh = new Intent(MenuPrincipalActivity.this, MenuPrincipalActivity.class);
+                finish();
+                startActivity(refresh);
             }
         });
 

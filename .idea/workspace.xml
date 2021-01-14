@@ -46,7 +46,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6P_API_23]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_23]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -131,6 +131,9 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/Acividad1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.didaktikapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
@@ -255,6 +258,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088446572" />
+    <state x="3623" y="572" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610645763538">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="3623" y="572" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.5120.1400@0.0.5120.1400" timestamp="1610645763538" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608639750747">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -323,8 +330,8 @@
     </state>
     <state x="143" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606982296605" />
     <state x="187" y="6" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1608033187478" />
-    <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog" timestamp="1608633980179">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="1814" y="287" width="393" height="436" key="chooseDestDirectoryDialog" timestamp="1610645693291">
+      <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog/0.0.1366.741@0.0.1366.741" timestamp="1608633980179" />
     <state x="336" y="0" width="689" height="739" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610101326866">
