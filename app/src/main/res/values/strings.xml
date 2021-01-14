@@ -34,4 +34,15 @@
     <string name="felicidades">Felicidades</string>
     <string name="mensaje">Descifra el mensaje misterioso que se esconde aqui abajo</string>
     <string name="rellenar">Rellena los huecos que hay para completar las frases</string>
+    <string name="rellenar1">Para enviar mineral al &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; y ​​otras ferreterías en otras regiones, había que llevarlo de las montañas a los muelles.</string>
+    <string name="rellenar2">Inicialmente, el mineral se bajaba con &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; y carros de mulas.</string>
+    <string name="rellenar3">A lo largo de los años, la demanda externa llevó a un tremendo aumento en la producción de &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.</string>
+    <string name="rellenar4">Inicialmente utilizaban animales, pero gradualmente comenzaron a ser reemplazados por &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; , entre otros, por teleféricos y ferrocarriles.</string>
+    <string name="rellenar5">El &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;, un sistema de transporte donde los &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; son transportados por un cable.</string>
+    <string name="respuesta1">Pais Vasco</string>
+    <string name="respuesta2">bueyes</string>
+    <string name="respuesta3">minerales</string>
+    <string name="respuesta4">maquinas</string>
+    <string name="respuesta5">Funicular</string>
+    <string name="respuesta6">bagones</string>
 </resources>

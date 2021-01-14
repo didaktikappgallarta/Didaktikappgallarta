@@ -11,17 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b06307-1394-4f5e-9428-5793cc4a2881" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/RellenarHuecosActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_crucigrama.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays_ahorcado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays_ahorcado.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MenuPrincipalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MenuPrincipalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-eu/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-eu/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_6_API_23]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -71,7 +72,7 @@
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
     <property name="memory.settings.postsync.last.time.stamp" value="1608632065309" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
@@ -104,12 +105,15 @@
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/Acividad1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.didaktikapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\migue\OneDrive\Escritorio\Didaktikappgallarta\app\src\main\java\com\example\didaktikapp" />
+      <recent name="C:\Users\migue\OneDrive\Escritorio\Didaktikappgallarta\app\src\main\java\com\example\didaktikapp\model" />
+      <recent name="C:\Users\migue\OneDrive\Escritorio\Didaktikappgallarta\app\src\main\res\values" />
+      <recent name="C:\Users\migue\OneDrive\Escritorio\Didaktikappgallarta\app\src\main\res\values-eu" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
-      <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.didaktikapp" />
@@ -227,6 +231,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="388" y="110" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088446572" />
+    <state x="3623" y="572" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610645763538">
+      <screen x="0" y="0" width="5120" height="1400" />
+    </state>
+    <state x="3623" y="572" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.5120.1400@0.0.5120.1400" timestamp="1610645763538" />
     <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608639750747">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
@@ -295,10 +303,11 @@
     </state>
     <state x="143" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606982296605" />
     <state x="187" y="6" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1608033187478" />
-    <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog" timestamp="1608633980179">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="1814" y="287" width="393" height="436" key="chooseDestDirectoryDialog" timestamp="1610645693291">
+      <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="484" y="152" width="393" height="436" key="chooseDestDirectoryDialog/0.0.1366.741@0.0.1366.741" timestamp="1608633980179" />
+    <state x="1814" y="287" key="chooseDestDirectoryDialog/0.0.5120.1400@0.0.5120.1400" timestamp="1610645693291" />
     <state x="344" y="163" key="run.anything.popup" timestamp="1606827359922">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
