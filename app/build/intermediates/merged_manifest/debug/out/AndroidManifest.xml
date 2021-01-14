@@ -23,9 +23,10 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:hardwareAccelerated="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
@@ -55,7 +56,7 @@
             android:name="com.example.didaktikapp.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name="com.example.didaktikapp.CrucigramaActivity" />
-        <activity android:name="com.example.didaktikapp.VideoCrucigramaActivity" />
+        <activity android:name="com.example.didaktikapp.VideoActivity" />
         <activity android:name="com.example.didaktikapp.MenuPrincipalActivity" />
         <activity android:name="com.example.didaktikapp.MemoramaActivity" >
         </activity>
