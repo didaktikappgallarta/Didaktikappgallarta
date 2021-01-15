@@ -71,6 +71,13 @@ com/example/didaktikapp/PuzzleLayout.java
  com.example.didaktikapp.PuzzleLayout$1
  com.example.didaktikapp.PuzzleLayout$2
  com.example.didaktikapp.PuzzleLayout$OnCompleteCallback
+com/example/didaktikapp/RellenarHuecosActivity.java
+ com.example.didaktikapp.RellenarHuecosActivity
+ com.example.didaktikapp.RellenarHuecosActivity$1
+ com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener
+ com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$1
+ com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$2
+ com.example.didaktikapp.RellenarHuecosActivity$ChoiceTouchListener
 com/example/didaktikapp/MainActivity.java
  com.example.didaktikapp.MainActivity
  com.example.didaktikapp.MainActivity$1

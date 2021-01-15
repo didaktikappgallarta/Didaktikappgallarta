@@ -153,6 +153,7 @@ public class DialogoActivity extends AppCompatActivity {
                         intent = new Intent(DialogoActivity.this, VideoActivity.class);
                         intent.putExtra("localizacion", "concha");
                         startActivity(intent);
+                        
                         break;
                 }
                 break;
@@ -169,7 +170,7 @@ public class DialogoActivity extends AppCompatActivity {
                 break;
 
             case "DoctorAreilza":
-                //intent = new Intent(DialogoActivity.this, MapsActivity.class);
+                //intent = new Intent(DialogoActivity.this, CrossWordActivity.class);
                 //startActivity(intent);
                 break;
 
@@ -262,7 +263,8 @@ public class DialogoActivity extends AppCompatActivity {
                         break;
 
                     case 5:
-                        intent = new Intent(DialogoActivity.this, MensajeMisteriosoActivity.class);
+                        intent = new Intent(DialogoActivity.this, VideoActivity.class);
+                        intent.putExtra("localizacion", "aliron");
                         startActivity(intent);
                         break;
                 }
