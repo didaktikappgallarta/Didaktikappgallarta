@@ -27,16 +27,18 @@ public class VideoActivity extends AppCompatActivity {
         switch (localizacion)
         {
             case "concha":
-                video= (VideoView) findViewById(R.id.videoView);
+                video = (VideoView) findViewById(R.id.videoView);
                 video.setVideoURI(Uri.parse(String.valueOf("android.resource://" + getPackageName() + "/" + R.raw.conchabideoa)));
                 break;
+            case "aliron":
+                video = (VideoView) findViewById(R.id.videoView);
+                video.setVideoURI(Uri.parse(String.valueOf("android.resource://" + getPackageName() + "/" + R.raw.alironbideoa)));
+                break;
         }
-
 
         MediaController mediaController = new MediaController(this);
         video.setMediaController(mediaController);
         mediaController.setAnchorView(video);
-
     }
 
 
@@ -46,6 +48,10 @@ public class VideoActivity extends AppCompatActivity {
             case "concha":
                 Intent intent = new Intent(VideoActivity.this, CrucigramaActivity.class);
                 startActivity(intent);
+                break;
+            case "aliron":
+                Intent intento = new Intent(VideoActivity.this, MensajeMisteriosoActivity.class);
+                startActivity(intento);
                 break;
         }
 

@@ -262,7 +262,8 @@ public class DialogoActivity extends AppCompatActivity {
                         break;
 
                     case 5:
-                        intent = new Intent(DialogoActivity.this, MensajeMisteriosoActivity.class);
+                        intent = new Intent(DialogoActivity.this, VideoActivity.class);
+                        intent.putExtra("localizacion", "aliron");
                         startActivity(intent);
                         break;
                 }
