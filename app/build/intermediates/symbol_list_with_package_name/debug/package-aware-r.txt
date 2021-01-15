@@ -2357,6 +2357,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap zugaztieta_puzzlea
 plurals mtrl_badge_content_description
+raw alironbideoa
 raw conchabideoa
 raw correct
 raw karmele_letra1
