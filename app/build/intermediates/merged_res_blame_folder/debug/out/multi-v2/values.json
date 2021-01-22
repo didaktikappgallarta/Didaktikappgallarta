@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dm2/DAM/Didaktikappgallarta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/dm2/.gradle/caches/transforms-2/files-2.1/c63d4a666c0a1ba98c2e2f24b9638d9e/material-1.2.1/res/values/values.xml",
@@ -42,22 +42,39 @@
                     }
                 },
                 {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/font_certs.xml",
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/google_maps_api.xml",
                     "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
+                        "startLines": "22",
+                        "startColumns": "4",
+                        "startOffsets": "841",
+                        "endColumns": "137",
+                        "endOffsets": "974"
                     },
                     "to": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "150,352,2077",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "347,2072,3662"
+                        "startLines": "1052",
+                        "startColumns": "4",
+                        "startOffsets": "65239",
+                        "endColumns": "137",
+                        "endOffsets": "65372"
+                    }
+                },
+                {
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/arrays_ahorcado.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "19",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "3667",
+                        "endLines": "22",
+                        "endColumns": "19",
+                        "endOffsets": "3871"
                     }
                 },
                 {
@@ -97,6 +114,25 @@
                     }
                 },
                 {
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "16,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "826,100",
+                        "endLines": "23,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "1367,820"
+                    },
+                    "to": {
+                        "startLines": "3622,3652",
+                        "startColumns": "4,4",
+                        "startOffsets": "240814,242502",
+                        "endLines": "3629,3664",
+                        "endColumns": "12,12",
+                        "endOffsets": "241355,243220"
+                    }
+                },
+                {
                     "source": "/home/dm2/.gradle/caches/transforms-2/files-2.1/e9a886a277d45e4611014a26e73477d0/jetified-appcompat-resources-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -116,43 +152,7 @@
                     }
                 },
                 {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,17,13,22,23,10,31,15,12,24,30,33,11,34,27,29,21,18,19,35,36,37,38,39,40,41,42,43,44,45,46,28,14,25,16,20,26,32,3,2,4,6",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,705,529,938,995,393,1358,609,481,1045,1319,1445,439,1497,1196,1285,874,748,788,1590,1680,1959,2182,2439,2738,3101,3151,3197,3246,3294,3343,1239,569,1089,657,831,1155,1406,117,65,173,230",
-                        "endLines": "1,17,13,22,23,10,31,15,12,24,30,33,11,34,27,29,21,18,19,35,36,37,38,39,40,41,42,43,44,45,46,28,14,25,16,20,26,32,3,2,4,8",
-                        "endColumns": "48,42,39,56,49,45,47,47,47,43,38,51,41,92,42,33,63,39,42,89,278,222,256,298,362,49,45,48,47,48,46,45,39,65,47,42,40,38,55,51,55,12",
-                        "endOffsets": "60,743,564,990,1040,434,1401,652,524,1084,1353,1492,476,1585,1234,1314,933,783,826,1675,1954,2177,2434,2733,3096,3146,3192,3241,3289,3338,3385,1280,604,1150,700,869,1191,1440,168,112,224,387"
-                    },
-                    "to": {
-                        "startLines": "1011,1013,1014,1016,1017,1023,1042,1043,1044,1046,1047,1051,1055,1059,1095,1096,1097,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1118,1120,1121,1123,1124,1125,1126,1127,1128,3348",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "61168,61367,61410,61581,61638,62113,64492,64540,64588,64701,64745,65187,65684,66137,72718,72761,72795,73661,73701,73744,73834,74008,74126,74278,74472,74625,74675,74721,74770,74818,74867,74914,74960,75053,75119,75238,75281,75322,75361,75417,75469,221336",
-                        "endLines": "1011,1013,1014,1016,1017,1023,1042,1043,1044,1046,1047,1051,1055,1059,1095,1096,1097,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1118,1120,1121,1123,1124,1125,1126,1127,1128,3350",
-                        "endColumns": "48,42,39,56,49,45,47,47,47,43,38,51,41,92,42,33,63,39,42,89,173,117,151,193,152,49,45,48,47,48,46,45,39,65,47,42,40,38,55,51,55,12",
-                        "endOffsets": "61212,61405,61445,61633,61683,62154,64535,64583,64631,64740,64779,65234,65721,66225,72756,72790,72854,73696,73739,73829,74003,74121,74273,74467,74620,74670,74716,74765,74813,74862,74909,74955,74995,75114,75162,75276,75317,75356,75412,75464,75520,221493"
-                    }
-                },
-                {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/google_maps_api.xml",
-                    "from": {
-                        "startLines": "22",
-                        "startColumns": "4",
-                        "startOffsets": "841",
-                        "endColumns": "137",
-                        "endOffsets": "974"
-                    },
-                    "to": {
-                        "startLines": "1052",
-                        "startColumns": "4",
-                        "startOffsets": "65239",
-                        "endColumns": "137",
-                        "endOffsets": "65372"
-                    }
-                },
-                {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/attrs.xml",
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/attrs.xml",
                     "from": {
                         "startLines": "3,8,42,15,20",
                         "startColumns": "1,4,4,4,4",
@@ -171,7 +171,7 @@
                     }
                 },
                 {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/preloaded_fonts.xml",
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/preloaded_fonts.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -190,58 +190,22 @@
                     }
                 },
                 {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/arrays_ahorcado.xml",
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "8",
-                        "endColumns": "19",
-                        "endOffsets": "259"
+                        "startLines": "1,17,13,22,23,10,31,15,12,24,30,33,11,34,27,29,21,18,19,35,36,37,38,39,40,41,42,43,44,45,46,28,14,25,16,20,26,32,3,2,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,705,529,938,995,393,1358,609,481,1045,1319,1445,439,1497,1196,1285,874,748,788,1590,1680,1959,2182,2439,2738,3101,3151,3197,3246,3294,3343,1239,569,1089,657,831,1155,1406,117,65,173,230",
+                        "endLines": "1,17,13,22,23,10,31,15,12,24,30,33,11,34,27,29,21,18,19,35,36,37,38,39,40,41,42,43,44,45,46,28,14,25,16,20,26,32,3,2,4,8",
+                        "endColumns": "48,42,39,56,49,45,47,47,47,43,38,51,41,92,42,33,63,39,42,89,278,222,256,298,362,49,45,48,47,48,46,45,39,65,47,42,40,38,55,51,55,12",
+                        "endOffsets": "60,743,564,990,1040,434,1401,652,524,1084,1353,1492,476,1585,1234,1314,933,783,826,1675,1954,2177,2434,2733,3096,3146,3192,3241,3289,3338,3385,1280,604,1150,700,869,1191,1440,168,112,224,387"
                     },
                     "to": {
-                        "startLines": "16",
-                        "startColumns": "4",
-                        "startOffsets": "3667",
-                        "endLines": "22",
-                        "endColumns": "19",
-                        "endOffsets": "3871"
-                    }
-                },
-                {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,9,10,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "286,370,417,55,102,149,196,241,328",
-                        "endColumns": "41,46,41,46,46,46,44,44,41",
-                        "endOffsets": "323,412,454,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "415,428,502,513,514,515,526,527,530",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "22578,23510,28569,29331,29378,29425,30169,30214,30380",
-                        "endColumns": "41,46,41,46,46,46,44,44,41",
-                        "endOffsets": "22615,23552,28606,29373,29420,29467,30209,30254,30417"
-                    }
-                },
-                {
-                    "source": "/home/dm2/DAM/Didaktikappgallarta/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "16,2",
-                        "startColumns": "4,4",
-                        "startOffsets": "826,100",
-                        "endLines": "23,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "1367,820"
-                    },
-                    "to": {
-                        "startLines": "3622,3652",
-                        "startColumns": "4,4",
-                        "startOffsets": "240814,242502",
-                        "endLines": "3629,3664",
-                        "endColumns": "12,12",
-                        "endOffsets": "241355,243220"
+                        "startLines": "1011,1013,1014,1016,1017,1023,1042,1043,1044,1046,1047,1051,1055,1059,1095,1096,1097,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1118,1120,1121,1123,1124,1125,1126,1127,1128,3348",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "61168,61367,61410,61581,61638,62113,64492,64540,64588,64701,64745,65187,65684,66137,72718,72761,72795,73661,73701,73744,73834,74008,74126,74278,74472,74625,74675,74721,74770,74818,74867,74914,74960,75053,75119,75238,75281,75322,75361,75417,75469,221336",
+                        "endLines": "1011,1013,1014,1016,1017,1023,1042,1043,1044,1046,1047,1051,1055,1059,1095,1096,1097,1103,1104,1105,1106,1107,1108,1109,1110,1111,1112,1113,1114,1115,1116,1117,1118,1120,1121,1123,1124,1125,1126,1127,1128,3350",
+                        "endColumns": "48,42,39,56,49,45,47,47,47,43,38,51,41,92,42,33,63,39,42,89,173,117,151,193,152,49,45,48,47,48,46,45,39,65,47,42,40,38,55,51,55,12",
+                        "endOffsets": "61212,61405,61445,61633,61683,62154,64535,64583,64631,64740,64779,65234,65721,66225,72756,72790,72854,73696,73739,73829,74003,74121,74273,74467,74620,74670,74716,74765,74813,74862,74909,74955,74995,75114,75162,75276,75317,75356,75412,75464,75520,221493"
                     }
                 },
                 {
@@ -280,6 +244,23 @@
                         "endLines": "72,4733,6007,6096",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "6233,314694,397033,402244"
+                    }
+                },
+                {
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,9,10,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,370,417,55,102,149,196,241,328",
+                        "endColumns": "41,46,41,46,46,46,44,44,41",
+                        "endOffsets": "323,412,454,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "415,428,502,513,514,515,526,527,530",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "22578,23510,28569,29331,29378,29425,30169,30214,30380",
+                        "endColumns": "41,46,41,46,46,46,44,44,41",
+                        "endOffsets": "22615,23552,28606,29373,29420,29467,30209,30254,30417"
                     }
                 },
                 {
@@ -373,6 +354,25 @@
                         "endLines": "7818",
                         "endColumns": "24",
                         "endOffsets": "501045"
+                    }
+                },
+                {
+                    "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/values/font_certs.xml",
+                    "from": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
+                    },
+                    "to": {
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,352,2077",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "347,2072,3662"
                     }
                 },
                 {

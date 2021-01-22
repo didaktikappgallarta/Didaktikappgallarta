@@ -31,6 +31,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Didaktikapp" >
+        <activity android:name="com.example.didaktikapp.PostJuegoActivity" />
         <activity
             android:name="com.example.didaktikapp.DialogoActivity"
             android:supportsRtl="true"
@@ -58,12 +59,9 @@
         <activity android:name="com.example.didaktikapp.CrucigramaActivity" />
         <activity android:name="com.example.didaktikapp.VideoActivity" />
         <activity android:name="com.example.didaktikapp.MenuPrincipalActivity" />
-        <activity android:name="com.example.didaktikapp.MemoramaActivity" >
-        </activity>
-        <activity android:name="com.example.didaktikapp.AhorcadoActivity" >
-        </activity>
-        <activity android:name="com.example.didaktikapp.MensajeMisteriosoActivity" >
-        </activity>
+        <activity android:name="com.example.didaktikapp.MemoramaActivity" />
+        <activity android:name="com.example.didaktikapp.AhorcadoActivity" />
+        <activity android:name="com.example.didaktikapp.MensajeMisteriosoActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

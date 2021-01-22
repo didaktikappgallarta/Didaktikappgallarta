@@ -255,17 +255,12 @@ public class MemoramaActivity extends AppCompatActivity {
             alertDialogBuilder
                     .setMessage("Enhorabuena has completado la actividad")
                     .setCancelable(false)
-                    .setPositiveButton("Repetir", new DialogInterface.OnClickListener() {
+                    .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Intent intent = new Intent(getApplicationContext(), MemoramaActivity.class);
+                            Intent intent = new Intent(MemoramaActivity.this, PostJuegoActivity.class);
+                            intent.putExtra("localizacion", "MuseoMineria");
                             startActivity(intent);
-                            finish();
-                        }
-                    })
-                    .setNegativeButton("Salir", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
                             finish();
                         }
                     });

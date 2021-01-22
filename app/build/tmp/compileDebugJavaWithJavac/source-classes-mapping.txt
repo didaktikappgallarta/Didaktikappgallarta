@@ -78,6 +78,8 @@ com/example/didaktikapp/RellenarHuecosActivity.java
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$1
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$2
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceTouchListener
+com/example/didaktikapp/PostJuegoActivity.java
+ com.example.didaktikapp.PostJuegoActivity
 com/example/didaktikapp/MainActivity.java
  com.example.didaktikapp.MainActivity
  com.example.didaktikapp.MainActivity$1
