@@ -1,6 +1,7 @@
 package com.example.didaktikapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -63,13 +64,10 @@ public class MensajeMisteriosoActivity extends AppCompatActivity {
             builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                   // MensajeMisteriosoActivity.class;
-                }
-            });
-            builder.setNegativeButton("Salir", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    MensajeMisteriosoActivity.this.finish();
+                    Intent intent = new Intent(MensajeMisteriosoActivity.this, PostJuegoActivity.class);
+                    intent.putExtra("localizacion", "aliron");
+                    startActivity(intent);
+                    finish();
                 }
             });
             builder.show();
