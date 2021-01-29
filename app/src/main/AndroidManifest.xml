@@ -7,17 +7,17 @@
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Didaktikapp">
+        <activity android:name=".PostJuegoActivity"></activity>
         <activity
             android:name=".DialogoActivity"
             android:supportsRtl="true"
-            android:theme="@style/Theme.AppCompat.Translucent"/>
-
+            android:theme="@style/Theme.AppCompat.Translucent" />
         <activity
             android:name=".PuzzleActivity"
             android:screenOrientation="landscape" />
@@ -39,20 +39,12 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".CrucigramaActivity" />
-
         <activity android:name=".VideoActivity" />
-
         <activity android:name=".MenuPrincipalActivity" />
+        <activity android:name=".MemoramaActivity"></activity>
+        <activity android:name=".AhorcadoActivity"></activity>
+        <activity android:name=".MensajeMisteriosoActivity"></activity>
 
-        <activity android:name=".MemoramaActivity">
-
-        </activity>
-        <activity android:name=".AhorcadoActivity">
-
-        </activity>
-        <activity android:name=".MensajeMisteriosoActivity">
-
-        </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

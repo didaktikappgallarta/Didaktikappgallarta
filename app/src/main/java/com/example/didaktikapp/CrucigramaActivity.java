@@ -144,15 +144,10 @@ public class CrucigramaActivity extends AppCompatActivity {
             builder.setPositiveButton("Continuar", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
+                    Intent intent = new Intent(CrucigramaActivity.this, PostJuegoActivity.class);
+                    intent.putExtra("localizacion", "concha");
                     startActivity(intent);
-                }
-            });
-            builder.setNegativeButton("Salir", new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    Intent intent = new Intent(CrucigramaActivity.this, MainActivity.class);
-                    startActivity(intent);
+                    finish();
                 }
             });
             builder.show();

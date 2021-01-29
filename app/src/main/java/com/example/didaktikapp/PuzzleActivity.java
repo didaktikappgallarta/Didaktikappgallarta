@@ -1,6 +1,7 @@
 package com.example.didaktikapp;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -37,6 +38,11 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
             public void onComplete() {
                 Toast.makeText(PuzzleActivity.this, R.string.complete, Toast.LENGTH_LONG).show();
                 //puzzleLayout.postDelayed(PuzzleActivity.this, 800);
+
+                Intent intent = new Intent(PuzzleActivity.this, PostJuegoActivity.class);
+                intent.putExtra("localizacion", "Zugaztieta");
+                startActivity(intent);
+                finish();
             }
         });
     }

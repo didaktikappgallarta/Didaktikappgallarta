@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dm2/DAM/Didaktikappgallarta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
+            "outputFile": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
                     "source": "/home/dm2/.gradle/caches/transforms-2/files-2.1/f46279d3478497538e817a8da381f082/jetified-play-services-basement-17.0.0/res/values-ka/values.xml",

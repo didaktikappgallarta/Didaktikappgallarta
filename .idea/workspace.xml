@@ -22,10 +22,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
@@ -34,7 +36,8 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/out/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
@@ -149,8 +152,9 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/MenuPrincipalActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/MenuPrincipalActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/MapsActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/didaktikapp/MapsActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_desplazamiento_abajo.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_desplazamiento_abajo.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_desplazamineto_arriba.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim_desplazamineto_arriba.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat" afterDir="false" />
@@ -310,14 +314,16 @@
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/CrucigramaActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/DialogoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/DialogoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/RellenarHuecosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/RellenarHuecosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/VideoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/VideoActivity.java" afterDir="false" />
-
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/DialogoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/DialogoActivity.java" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MemoramaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MemoramaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MensajeMisteriosoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/MensajeMisteriosoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/PuzzleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp/PuzzleActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialogo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialogo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/karmele_sarrera3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/karmele_sarrera3_pt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/karmele_sarrera4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/karmele_sarrera4_pt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/karmele_teoria1.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,8 +369,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6P_API_23" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-08T12:19:21.292Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_6_API_23" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-15T08:42:29.049Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android-custom-view/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_SELECTED" value="GestureDetectGridView" />
@@ -377,8 +383,8 @@
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/StreakView.java_SELECTED" value="StreakView" />
     <property name="android-custom-viewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/custom/layout/FlowLayout.java_SELECTED" value="FlowLayout" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1608632065309" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/raw" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1610701314239" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/GestureDetectGridView.kt_selected" value="Custom views" />
     <property name="multi-representation-preview/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/F540U/Desktop/Didaktikappgallarta/app/src/main/java/com/example/didaktikapp/PuzzleLayout.java_selected" value="Custom views" />
@@ -401,21 +407,24 @@
       <recent name="com.example.didaktikapp.commons" />
       <recent name="com.example.didaktikapp.di.component" />
     </key>
-    <key name="android.template.-220974650">
-      <recent name="com.example.didaktikapp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/Acividad1" />
     </key>
+    <key name="android.template.-522461072">
+      <recent name="com.example.didaktikapp" />
+    </key>
+    <key name="android.template.-220974650">
+      <recent name="com.example.didaktikapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.didaktikapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/didaktikapp" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/androidTest/assets/transporte" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
@@ -520,10 +529,11 @@
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606982411559" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1608643548640" />
-    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607676904504">
+    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610705335875">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
-    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.741@0.0.1366.741" timestamp="1607676904504" />
+    <state x="397" y="176" width="605" height="388" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.741@0.0.1366.741" timestamp="1610705335875" />
+    <state x="419" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.873@0.0.1440.873" timestamp="1610697061671" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1607084839308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -540,11 +550,11 @@
       <screen x="0" y="0" width="5120" height="1400" />
     </state>
     <state x="3623" y="572" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.5120.1400@0.0.5120.1400" timestamp="1610645763538" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608639750747">
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610701422137">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state x="416" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607088043701" />
-    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1608639750747" />
+    <state x="416" y="121" width="530" height="498" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.741@0.0.1366.741" timestamp="1610701422137" />
     <state x="416" y="119" width="530" height="498" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1607086881627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -567,26 +577,26 @@
     </state>
     <state x="466" y="127" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607082715992" />
     <state x="466" y="129" width="430" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1610629876606" />
-    <state width="1322" height="277" key="GridCell.Tab.0.bottom" timestamp="1610108615067">
+    <state width="1322" height="277" key="GridCell.Tab.0.bottom" timestamp="1610705219959">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1610108615067" />
-    <state width="1322" height="277" key="GridCell.Tab.0.center" timestamp="1610108615067">
+    <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1610705219959" />
+    <state width="1322" height="277" key="GridCell.Tab.0.center" timestamp="1610705219958">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1610108615067" />
-    <state width="1322" height="277" key="GridCell.Tab.0.left" timestamp="1610108615066">
+    <state width="1322" height="277" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1610705219958" />
+    <state width="1322" height="277" key="GridCell.Tab.0.left" timestamp="1610705219957">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1610108615066" />
-    <state width="1322" height="277" key="GridCell.Tab.0.right" timestamp="1610108615067">
+    <state width="1322" height="277" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1610705219957" />
+    <state width="1322" height="277" key="GridCell.Tab.0.right" timestamp="1610705219958">
       <screen x="0" y="0" width="1366" height="741" />
     </state>
     <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607068087065" />
-    <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1610108615067" />
+    <state width="1322" height="277" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1610705219958" />
     <state width="1322" height="225" key="GridCell.Tab.1.bottom" timestamp="1608038873113">
       <screen x="0" y="0" width="1366" height="741" />
     </state>

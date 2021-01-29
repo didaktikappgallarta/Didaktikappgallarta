@@ -22,7 +22,9 @@ public class DialogoActivity extends AppCompatActivity {
     TextView actividad;
     InputStream fraw = null;
     ImageView karmele;
-    int contTeoria1 = 1;
+    int contTeoria2 = 1;
+    int contTeoria3 = 1;
+    int contTeoria4 = 1;
     int contTeoria6 = 1;
     int contTeoria7 = 1;
     MediaPlayer mediaPlayer;
@@ -58,7 +60,7 @@ public class DialogoActivity extends AppCompatActivity {
                     break;
 
                 case "MuseoMineria":
-                    fraw = getResources().openRawResource(R.raw.karmele_sarrera3);
+                    fraw = getResources().openRawResource(R.raw.karmele_sarrera3_pt1);
                     actividad.setText("MuseoMineria");
 
                     mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_museo);
@@ -66,7 +68,7 @@ public class DialogoActivity extends AppCompatActivity {
                     break;
 
                 case "Transporte":
-                    fraw = getResources().openRawResource(R.raw.karmele_sarrera4);
+                    fraw = getResources().openRawResource(R.raw.karmele_sarrera4_pt1);
                     actividad.setText("Transporte");
 
                     mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_transporte);
@@ -113,7 +115,7 @@ public class DialogoActivity extends AppCompatActivity {
         }
     }
 
-    public void pasarActividad(View v) throws IOException {
+    public void avanzar(View v) throws IOException {
         String accion = actividad.getText().toString();
         Intent intent;
         BufferedReader brin;
@@ -123,13 +125,14 @@ public class DialogoActivity extends AppCompatActivity {
             case "Zugaztieta":
                 intent = new Intent(DialogoActivity.this, PuzzleActivity.class);
                 startActivity(intent);
-
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_zugaztieta);
                 mediaPlayer.start();
+                finish();
+                
                 break;
 
             case "MinaConcha":
-                switch (contTeoria1)
+                switch (contTeoria2)
                 {
                     case 1:
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
@@ -140,7 +143,7 @@ public class DialogoActivity extends AppCompatActivity {
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
-                        contTeoria1++;
+                        contTeoria2++;
                         break;
 
                     case 2:
@@ -150,7 +153,7 @@ public class DialogoActivity extends AppCompatActivity {
                         mediaPlayer.seekTo(33);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
-                        contTeoria1++;
+                        contTeoria2++;
                         break;
 
                     case 3:
@@ -160,7 +163,7 @@ public class DialogoActivity extends AppCompatActivity {
                         mediaPlayer.seekTo(113);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
-                        contTeoria1++;
+                        contTeoria2++;
                         break;
 
                     case 4:
@@ -170,7 +173,7 @@ public class DialogoActivity extends AppCompatActivity {
                         mediaPlayer.seekTo(137);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
-                        contTeoria1++;
+                        contTeoria2++;
                         break;
 
                     case 5:
@@ -180,44 +183,73 @@ public class DialogoActivity extends AppCompatActivity {
                         mediaPlayer.seekTo(153);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
-                        contTeoria1++;
+                        contTeoria2++;
                         break;
 
                     case 6:
                         intent = new Intent(DialogoActivity.this, VideoActivity.class);
                         intent.putExtra("localizacion", "concha");
                         startActivity(intent);
-                        
+                        finish();
                         break;
                 }
                 break;
 
             case "MuseoMineria":
-                intent = new Intent(DialogoActivity.this, MemoramaActivity.class);
-                startActivity(intent);
 
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_museo);
-                mediaPlayer.start();
+                switch (contTeoria3) {
+                    case 1:
+                        karmele.setImageResource(R.drawable.karmele_animazioa2);
+                        fraw = getResources().openRawResource(R.raw.karmele_sarrera3_pt2);
+
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_museo);
+                        mediaPlayer.start();
+                    
+                        brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
+                        while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
+                        contTeoria3++;
+                        break;
+
+                    case 2:
+                        intent = new Intent(DialogoActivity.this, MemoramaActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
+
                 break;
-/////////////////////////////Actividades sin codificar///////////////////////////////////////
 
             case "Transporte":
-                //intent = new Intent(DialogoActivity.this, RellenarHuecosActivity.class);
-                //startActivity(intent);
 
-                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_transporte);
-                mediaPlayer.start();
+                switch (contTeoria4) {
+                    case 1:
+                        karmele.setImageResource(R.drawable.karmele_animazioa2);
+                        fraw = getResources().openRawResource(R.raw.karmele_sarrera4_pt2);
+
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_transporte);
+                        mediaPlayer.start();
+                        brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
+                        while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
+                        contTeoria4++;
+                        break;
+
+                    case 2:
+                        intent = new Intent(DialogoActivity.this, RellenarHuecosActivity.class);
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
                 break;
 
             case "DoctorAreilza":
-                //intent = new Intent(DialogoActivity.this, CrossWordActivity.class);
-                //startActivity(intent);
-
                 mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_doctor);
                 mediaPlayer.start();
-                break;
+            
+                //intent = new Intent(DialogoActivity.this, CrossWordActivity.class);
+                //startActivity(intent);
+                finish();
 
-/////////////////////////////Actividades sin codificar///////////////////////////////////////
+                break;
 
             case "Pasionaria":
                 switch (contTeoria6)
@@ -270,6 +302,7 @@ public class DialogoActivity extends AppCompatActivity {
                     case 5:
                         intent = new Intent(DialogoActivity.this, AhorcadoActivity.class);
                         startActivity(intent);
+                        finish();
                         break;
                 }
                 break;
@@ -327,10 +360,10 @@ public class DialogoActivity extends AppCompatActivity {
                         intent = new Intent(DialogoActivity.this, VideoActivity.class);
                         intent.putExtra("localizacion", "aliron");
                         startActivity(intent);
+                        finish();
                         break;
                 }
                 break;
         }
-
     }
 }
