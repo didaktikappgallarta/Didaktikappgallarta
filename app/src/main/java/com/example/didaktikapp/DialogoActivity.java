@@ -3,6 +3,7 @@ package com.example.didaktikapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,6 +27,8 @@ public class DialogoActivity extends AppCompatActivity {
     int contTeoria4 = 1;
     int contTeoria6 = 1;
     int contTeoria7 = 1;
+    MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,36 +46,57 @@ public class DialogoActivity extends AppCompatActivity {
                 case "Zugaztieta":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera1);
                     actividad.setText("Zugaztieta");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_zugaztieta);
+                    mediaPlayer.start();
                     break;
 
                 case "MinaConcha":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera2);
                     actividad.setText("MinaConcha");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_concha);
+                    mediaPlayer.start();
                     break;
 
                 case "MuseoMineria":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera3_pt1);
                     actividad.setText("MuseoMineria");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_museo);
+                    mediaPlayer.start();
                     break;
 
                 case "Transporte":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera4_pt1);
                     actividad.setText("Transporte");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_transporte);
+                    mediaPlayer.start();
                     break;
 
                 case "DoctorAreilza":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera5);
                     actividad.setText("DoctorAreilza");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_doctor);
+                    mediaPlayer.start();
                     break;
 
                 case "Pasionaria":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera6);
                     actividad.setText("Pasionaria");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_pasionaria);
+                    mediaPlayer.start();
                     break;
 
                 case "AllIron":
                     fraw = getResources().openRawResource(R.raw.karmele_sarrera7);
                     actividad.setText("AllIron");
+
+                    mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_sarrera_aliron);
+                    mediaPlayer.start();
                     break;
             }
 
@@ -101,7 +125,10 @@ public class DialogoActivity extends AppCompatActivity {
             case "Zugaztieta":
                 intent = new Intent(DialogoActivity.this, PuzzleActivity.class);
                 startActivity(intent);
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_zugaztieta);
+                mediaPlayer.start();
                 finish();
+                
                 break;
 
             case "MinaConcha":
@@ -110,6 +137,9 @@ public class DialogoActivity extends AppCompatActivity {
                     case 1:
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt1);
+
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_concha);
+                        mediaPlayer.start();
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
@@ -120,6 +150,7 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa3);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt2);
 
+                        mediaPlayer.seekTo(33);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria2++;
@@ -129,6 +160,7 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa4);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt3);
 
+                        mediaPlayer.seekTo(113);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria2++;
@@ -136,8 +168,9 @@ public class DialogoActivity extends AppCompatActivity {
 
                     case 4:
                         karmele.setImageResource(R.drawable.karmele_animazioa5);
-                        fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt4);
+                        fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt5);
 
+                        mediaPlayer.seekTo(137);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria2++;
@@ -145,8 +178,9 @@ public class DialogoActivity extends AppCompatActivity {
 
                     case 5:
                         karmele.setImageResource(R.drawable.karmele_animazioa6);
-                        fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt5);
+                        fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt4);
 
+                        mediaPlayer.seekTo(153);
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria2++;
@@ -162,11 +196,15 @@ public class DialogoActivity extends AppCompatActivity {
                 break;
 
             case "MuseoMineria":
+
                 switch (contTeoria3) {
                     case 1:
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
                         fraw = getResources().openRawResource(R.raw.karmele_sarrera3_pt2);
 
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_museo);
+                        mediaPlayer.start();
+                    
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria3++;
@@ -178,14 +216,18 @@ public class DialogoActivity extends AppCompatActivity {
                         finish();
                         break;
                 }
+
                 break;
 
             case "Transporte":
+
                 switch (contTeoria4) {
                     case 1:
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
                         fraw = getResources().openRawResource(R.raw.karmele_sarrera4_pt2);
 
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_transporte);
+                        mediaPlayer.start();
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria4++;
@@ -200,9 +242,13 @@ public class DialogoActivity extends AppCompatActivity {
                 break;
 
             case "DoctorAreilza":
+                mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_doctor);
+                mediaPlayer.start();
+            
                 //intent = new Intent(DialogoActivity.this, CrossWordActivity.class);
                 //startActivity(intent);
                 finish();
+
                 break;
 
             case "Pasionaria":
@@ -211,6 +257,9 @@ public class DialogoActivity extends AppCompatActivity {
                     case 1:
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria6_pt1);
+
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_pasionaria);
+                        mediaPlayer.start();
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
@@ -221,6 +270,8 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa3);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria6_pt2);
 
+                        mediaPlayer.seekTo(20);
+
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria6++;
@@ -230,6 +281,8 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa4);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria6_pt3);
 
+                        mediaPlayer.seekTo(51);
+
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria6++;
@@ -238,6 +291,8 @@ public class DialogoActivity extends AppCompatActivity {
                     case 4:
                         karmele.setImageResource(R.drawable.karmele_animazioa5);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria6_pt4);
+
+                        mediaPlayer.seekTo(111);
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
@@ -260,6 +315,9 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa2);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria7_pt1);
 
+                        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.karmele_teoria_aliron);
+                        mediaPlayer.start();
+
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria7++;
@@ -268,6 +326,8 @@ public class DialogoActivity extends AppCompatActivity {
                     case 2:
                         karmele.setImageResource(R.drawable.karmele_animazioa3);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria7_pt2);
+
+                        mediaPlayer.seekTo(20);
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
@@ -278,6 +338,8 @@ public class DialogoActivity extends AppCompatActivity {
                         karmele.setImageResource(R.drawable.karmele_animazioa4);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria7_pt3);
 
+                        mediaPlayer.seekTo(45);
+
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
                         contTeoria7++;
@@ -286,6 +348,8 @@ public class DialogoActivity extends AppCompatActivity {
                     case 4:
                         karmele.setImageResource(R.drawable.karmele_animazioa5);
                         fraw = getResources().openRawResource(R.raw.karmele_teoria7_pt4);
+
+                        mediaPlayer.seekTo(112);
 
                         brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
                         while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
@@ -301,6 +365,5 @@ public class DialogoActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 }

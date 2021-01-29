@@ -27,28 +27,28 @@ public class RellenarHuecosActivity extends AppCompatActivity {
         setContentView(R.layout.activity_llenar_huecos);
 
         //views to drag
-//        option1 = (TextView)findViewById(R.id.option_1);
-//        option2 = (TextView)findViewById(R.id.option_2);
-//        option3 = (TextView)findViewById(R.id.option_3);
-//        option4 = (TextView)findViewById(R.id.option_4);
-//        option5 = (TextView)findViewById(R.id.option_5);
-//        option6 = (TextView)findViewById(R.id.option_6);
-//
-//        //views to drop onto
-//        choice1 = (TextView)findViewById(R.id.choice_1);
-//        choice1_2 = (TextView)findViewById(R.id.choice_1_2);
-//
-//        choice2 = (TextView)findViewById(R.id.choice_2);
-//        choice2_2 = (TextView)findViewById(R.id.choice_2_2);
-//
-//        choice3 = (TextView)findViewById(R.id.choice_3);
-//        choice3_2 = (TextView)findViewById(R.id.choice_3_2);
-//
-//        choice4 = (TextView)findViewById(R.id.choice_4);
-//        choice4_2 = (TextView)findViewById(R.id.choice_4_2);
-//
-//        choice5 = (TextView)findViewById(R.id.choice_5);
-//        choice6 = (TextView)findViewById(R.id.choice_6);
+        option1 = (TextView)findViewById(R.id.option_1);
+        option2 = (TextView)findViewById(R.id.option_2);
+        option3 = (TextView)findViewById(R.id.option_3);
+        option4 = (TextView)findViewById(R.id.option_4);
+        option5 = (TextView)findViewById(R.id.option_5);
+        option6 = (TextView)findViewById(R.id.option_6);
+
+        //views to drop onto
+        choice1 = (TextView)findViewById(R.id.choice_1);
+        choice1_2 = (TextView)findViewById(R.id.choice_1_2);
+
+        choice2 = (TextView)findViewById(R.id.choice_2);
+        choice2_2 = (TextView)findViewById(R.id.choice_2_2);
+
+        choice3 = (TextView)findViewById(R.id.choice_3);
+        choice3_2 = (TextView)findViewById(R.id.choice_3_2);
+
+        choice4 = (TextView)findViewById(R.id.choice_4);
+        choice4_2 = (TextView)findViewById(R.id.choice_4_2);
+
+        choice5 = (TextView)findViewById(R.id.choice_5);
+        choice6 = (TextView)findViewById(R.id.choice_6);
 
         //set touch listeners
         option1.setOnTouchListener(new ChoiceTouchListener());
@@ -135,6 +135,9 @@ public class RellenarHuecosActivity extends AppCompatActivity {
                             (name.equals("choice_5") && nameOpcion.equals("option_2")) || (name.equals("choice_4") && nameOpcion.equals("option_4")) || (name.equals("choice_4_2") && nameOpcion.equals("option_4")) ||
                             (name.equals("choice_2") && nameOpcion.equals("option_6")) || (name.equals("choice_2_2") && nameOpcion.equals("option_6")) || (name.equals("choice_6") && nameOpcion.equals("option_5")))
                     {
+                        System.out.println(name + "holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+                        System.out.println(nameOpcion + "Holaaaaaaaaaaaaaaaaaaaaaaaaa");
+
                         //stop displaying the view where it was before it was dragged
                         view.setVisibility(View.INVISIBLE);
 
