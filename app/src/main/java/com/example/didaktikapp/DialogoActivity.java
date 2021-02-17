@@ -30,6 +30,7 @@ public class DialogoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialogo);
+
         dialogo = findViewById(R.id.dialogo);
         actividad = findViewById(R.id.actividad);
         karmele = findViewById(R.id.karmele);
@@ -153,6 +154,15 @@ public class DialogoActivity extends AppCompatActivity {
                         break;
 
                     case 6:
+                        karmele.setImageResource(R.drawable.karmele_animazioa6);
+                        fraw = getResources().openRawResource(R.raw.karmele_teoria2_pt6);
+
+                        brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
+                        while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
+                        contTeoria2++;
+                        break;
+
+                    case 7:
                         intent = new Intent(DialogoActivity.this, VideoActivity.class);
                         intent.putExtra("localizacion", "concha");
                         startActivity(intent);
@@ -245,6 +255,15 @@ public class DialogoActivity extends AppCompatActivity {
                         break;
 
                     case 5:
+                        karmele.setImageResource(R.drawable.karmele_animazioa5);
+                        fraw = getResources().openRawResource(R.raw.karmele_teoria6_pt5);
+
+                        brin = new BufferedReader(new InputStreamReader(fraw)); linea = brin.readLine();
+                        while (linea != null){ dialogo.setText(linea); linea = brin.readLine();} fraw.close();
+                        contTeoria6++;
+                        break;
+
+                    case 6:
                         intent = new Intent(DialogoActivity.this, AhorcadoActivity.class);
                         startActivity(intent);
                         finish();

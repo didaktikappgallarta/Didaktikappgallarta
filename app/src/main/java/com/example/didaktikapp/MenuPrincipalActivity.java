@@ -30,6 +30,8 @@ public class MenuPrincipalActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_principal);
+
+        this.getSupportActionBar().hide();
     }
 
     public void empezarActividad(View v) {
@@ -110,10 +112,6 @@ public class MenuPrincipalActivity extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
-
-    }
-
-    public void continuarPartida(View view) {
 
     }
 

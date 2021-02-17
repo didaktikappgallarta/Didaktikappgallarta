@@ -8,6 +8,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_letra1.txt"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria2_pt6.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria2_pt6.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria6_pt3.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria6_pt3.txt"
     },
@@ -24,12 +28,20 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/icjardin.jpg"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera3_pt1.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera3_pt1.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_edit_text_border.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/edit_text_border.xml"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera7.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera7.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria4_pt4.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria4_pt4.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_video.xml.flat",
@@ -44,12 +56,12 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/idioma.jpg"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_dialogo_idioma.xml.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/dialogo_idioma.xml"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_mapa_noche.JSON.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/mapa_noche.JSON"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_dialogo_idioma.xml.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/dialogo_idioma.xml"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria3_pt1.txt.flat",
@@ -98,6 +110,10 @@
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_letra3.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_letra3.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria4_pt3.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria4_pt3.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa3.png.flat",
@@ -180,12 +196,12 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/mapa_dia.JSON"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria3_pt6.txt.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria3_pt6.txt"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria5_pt1.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria5_pt1.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/font_abel.xml.flat",
@@ -204,12 +220,24 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/folder.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria4_pt1.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria4_pt1.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria5_pt4.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria5_pt4.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_letra5.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_letra5.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_menu_principal.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/menu_principal.xml"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera4_pt1.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera4_pt1.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_mezu_misteriotsua2.png.flat",
@@ -256,10 +284,6 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/wrong.mp3"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera4.txt.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera4.txt"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/logo.png"
     },
@@ -298,6 +322,10 @@
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria5_pt3.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria5_pt3.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_letra6.txt.flat",
@@ -344,6 +372,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_dialogo.xml"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria6_pt5.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria6_pt5.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_mensaje_misterioso.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_mensaje_misterioso.xml"
     },
@@ -358,6 +390,10 @@
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_arm_left.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/arm_left.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria5_pt2.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria5_pt2.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_marca.png.flat",
@@ -404,6 +440,14 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_letra7.txt"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera4_pt2.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera4_pt2.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria5_pt5.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria5_pt5.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_main.xml"
     },
@@ -440,6 +484,10 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/karmele_animazioa4.png"
     },
     {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria4_pt2.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria4_pt2.txt"
+    },
+    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_alironbideoa.mp4.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/alironbideoa.mp4"
     },
@@ -450,6 +498,10 @@
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria7_pt3.txt.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria7_pt3.txt"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera3_pt2.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera3_pt2.txt"
     },
     {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_laugarrenirudia.png.flat",
@@ -464,11 +516,11 @@
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/layout/activity_puzzle.xml"
     },
     {
-        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_sarrera3.txt.flat",
-        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_sarrera3.txt"
-    },
-    {
         "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/drawable_karmele_animazioa7.png.flat",
         "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/drawable/karmele_animazioa7.png"
+    },
+    {
+        "merged": "/home/dm2/Escritorio/Didaktikappgallarta/app/build/intermediates/res/merged/debug/raw_karmele_teoria4_pt5.txt.flat",
+        "source": "/home/dm2/Escritorio/Didaktikappgallarta/app/src/main/res/raw/karmele_teoria4_pt5.txt"
     }
 ]

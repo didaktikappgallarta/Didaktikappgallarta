@@ -32,6 +32,8 @@ public class PostJuegoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialogo);
 
+        this.getSupportActionBar().hide();
+
         dialogo = findViewById(R.id.dialogo);
         actividad = findViewById(R.id.actividad);
         karmele = findViewById(R.id.karmele);

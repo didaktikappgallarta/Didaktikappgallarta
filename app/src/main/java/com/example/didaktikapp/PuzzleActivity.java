@@ -36,13 +36,28 @@ public class PuzzleActivity extends AppCompatActivity implements Runnable, View.
         puzzleLayout.setOnCompleteCallback(new PuzzleLayout.OnCompleteCallback() {
             @Override
             public void onComplete() {
-                Toast.makeText(PuzzleActivity.this, R.string.complete, Toast.LENGTH_LONG).show();
+                /*Toast.makeText(PuzzleActivity.this, R.string.complete, Toast.LENGTH_LONG).show();
                 //puzzleLayout.postDelayed(PuzzleActivity.this, 800);
 
                 Intent intent = new Intent(PuzzleActivity.this, PostJuegoActivity.class);
                 intent.putExtra("localizacion", "Zugaztieta");
                 startActivity(intent);
-                finish();
+                finish();*/
+                AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(PuzzleActivity.this);
+                alertDialogBuilder
+                        .setMessage("Enhorabuena has completado la actividad")
+                        .setCancelable(false)
+                        .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent intent = new Intent(PuzzleActivity.this, PostJuegoActivity.class);
+                                intent.putExtra("localizacion", "Zugaztieta");
+                                startActivity(intent);
+                                finish();
+                            }
+                        });
+                AlertDialog alertDialog = alertDialogBuilder.create();
+                alertDialog.show();
             }
         });
     }

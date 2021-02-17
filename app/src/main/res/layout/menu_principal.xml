@@ -6,78 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="413dp"
-        android:layout_height="168dp"
-        android:layout_marginTop="336dp"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:onClick="salirAplicacion">
-
-                <TextView
-                    android:id="@+id/txtHelp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/help"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="@font/aclonica"
-                    android:text="@string/salir" />
-
-                <ImageView
-                    android:id="@+id/help"
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/exit" />
-            </RelativeLayout>
-        </androidx.cardview.widget.CardView>
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_width="377dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="68dp"
         android:text="Didaktikapp"
-        android:textSize="30sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textSize="70sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="220dp"
-        android:layout_height="174dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icjardin" />
-
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="413dp"
         android:layout_height="168dp"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
@@ -145,11 +96,10 @@
     <LinearLayout
         android:layout_width="413dp"
         android:layout_height="168dp"
-        android:layout_marginTop="168dp"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
@@ -160,25 +110,25 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:onClick="continuarPartida">
+                android:onClick="salirAplicacion">
 
                 <TextView
-                    android:id="@+id/txtFolder"
+                    android:id="@+id/txtHelp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/folder"
+                    android:layout_below="@id/help"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/aclonica"
-                    android:text="@string/continuar" />
+                    android:text="@string/salir" />
 
                 <ImageView
-                    android:id="@+id/folder"
+                    android:id="@+id/help"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/folder" />
+                    app:srcCompat="@drawable/exit" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -213,5 +163,18 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="178dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

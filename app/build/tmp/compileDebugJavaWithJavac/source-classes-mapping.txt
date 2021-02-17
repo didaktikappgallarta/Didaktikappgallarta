@@ -13,18 +13,17 @@ com/example/didaktikapp/BuildConfig.java
  com.example.didaktikapp.BuildConfig
 com/example/didaktikapp/model/Block.java
  com.example.didaktikapp.model.Block
-com/example/didaktikapp/DialogoActivity.java
- com.example.didaktikapp.DialogoActivity
+com/example/didaktikapp/MainActivity.java
+ com.example.didaktikapp.MainActivity
+ com.example.didaktikapp.MainActivity$1
 com/example/didaktikapp/MenuPrincipalActivity.java
  com.example.didaktikapp.MenuPrincipalActivity
  com.example.didaktikapp.MenuPrincipalActivity$1
  com.example.didaktikapp.MenuPrincipalActivity$2
  com.example.didaktikapp.MenuPrincipalActivity$3
  com.example.didaktikapp.MenuPrincipalActivity$4
-com/example/didaktikapp/MapsActivity.java
- com.example.didaktikapp.MapsActivity
- com.example.didaktikapp.MapsActivity$1
- com.example.didaktikapp.MapsActivity$1$1
+com/example/didaktikapp/PostJuegoActivity.java
+ com.example.didaktikapp.PostJuegoActivity
 com/example/didaktikapp/DataHelper.java
  com.example.didaktikapp.DataHelper
 com/example/didaktikapp/CrucigramaActivity.java
@@ -33,14 +32,12 @@ com/example/didaktikapp/CrucigramaActivity.java
  com.example.didaktikapp.CrucigramaActivity$2
  com.example.didaktikapp.CrucigramaActivity$3
  com.example.didaktikapp.CrucigramaActivity$4
- com.example.didaktikapp.CrucigramaActivity$5
 com/example/didaktikapp/model/Grid.java
  com.example.didaktikapp.model.Grid
 com/example/didaktikapp/MemoramaActivity.java
  com.example.didaktikapp.MemoramaActivity
  com.example.didaktikapp.MemoramaActivity$1
  com.example.didaktikapp.MemoramaActivity$10
- com.example.didaktikapp.MemoramaActivity$11
  com.example.didaktikapp.MemoramaActivity$2
  com.example.didaktikapp.MemoramaActivity$3
  com.example.didaktikapp.MemoramaActivity$4
@@ -57,7 +54,6 @@ com/example/didaktikapp/MensajeMisteriosoActivity.java
  com.example.didaktikapp.MensajeMisteriosoActivity$1
  com.example.didaktikapp.MensajeMisteriosoActivity$2
  com.example.didaktikapp.MensajeMisteriosoActivity$3
- com.example.didaktikapp.MensajeMisteriosoActivity$4
 com/example/didaktikapp/AhorcadoActivity.java
  com.example.didaktikapp.AhorcadoActivity
  com.example.didaktikapp.AhorcadoActivity$1
@@ -78,8 +74,9 @@ com/example/didaktikapp/RellenarHuecosActivity.java
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$1
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceDragListener$2
  com.example.didaktikapp.RellenarHuecosActivity$ChoiceTouchListener
-com/example/didaktikapp/PostJuegoActivity.java
- com.example.didaktikapp.PostJuegoActivity
-com/example/didaktikapp/MainActivity.java
- com.example.didaktikapp.MainActivity
- com.example.didaktikapp.MainActivity$1
+com/example/didaktikapp/DialogoActivity.java
+ com.example.didaktikapp.DialogoActivity
+com/example/didaktikapp/MapsActivity.java
+ com.example.didaktikapp.MapsActivity
+ com.example.didaktikapp.MapsActivity$1
+ com.example.didaktikapp.MapsActivity$1$1
